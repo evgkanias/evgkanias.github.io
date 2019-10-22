@@ -127,6 +127,9 @@ p.small{
 /* SHORT BIO SECTION */
 /****************************************************/
 /*#bio{margin:0px 43px; padding-top:45px;}*/
+#bio p{
+	margin-left:50px;
+}
 
 /****************************************************/
 /* WORK SECTION */
