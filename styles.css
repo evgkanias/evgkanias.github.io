@@ -4,7 +4,7 @@ body{
 	font: 500 15px/15px 'Open Sans', Verdana, Helvetica, sans-serif;
 	color:#DFE2E5;
 }
-h1{font: 400 50px/50px 'Bree Serif', Georgia, serif; color:#557483;}
+h1{font: 400 40px/40px 'Bree Serif', Georgia, serif; color:#557483;}
 h2{font: 400 25px/28px 'Bree Serif', Georgia, serif; color:#446981;}
 h3{font: 400 18px/20px 'Bree Serif', Georgia, serif; color:#98A1A9;}
 ul{
@@ -16,17 +16,24 @@ a:hover {color:#446981;}
 a img{border:0px;}
 p{
     line-height: 1.65;
+	text-align: justify;
 }
 p.small{
     line-height: 1;
 }
 
-#container{
+#info{
 	width:950px;
-	margin:0px auto 300px auto;
-	background:url(images/body-bg.png);
+	padding-bottom:50px;
+	margin:0px auto 0px auto;
 	overflow:auto;
-	padding-bottom:100px;
+}
+
+.container{
+	width:870px;
+	margin:0px auto 10px auto;
+	background:url(images/body-bg.png);
+	padding:40px;
 }
 
 /****************************************************/
@@ -64,39 +71,38 @@ p.small{
 /* ABOUT SECTION */
 /****************************************************/
 
-#home{margin:0px 43px; padding-top:55px;}
 #home h1{float:left;}
-#home #top-social{float:right; padding-top:62px;}
-#home #top-social li{float:left; list-style:none; margin-left:10px;}
-#home #top-social .github{
+#home .top-social{float:right; padding-top:62px;}
+#home .top-social li{float:left; list-style:none; margin-left:10px;}
+#home .top-social .github{
 	text-indent:-9999px; 
 	display:block; 
 	width:28px; 
 	height:28px; 
 	background:url(images/sm-github6-icon.png) no-repeat;
 }
-#home #top-social .facebook{
+#home .top-social .facebook{
 	text-indent:-9999px; 
 	display:block; 
 	width:26px; 
 	height:26px; 
 	background:url(images/sm-facebook-icon.png) no-repeat;
 }
-#home #top-social .twitter{
+#home .top-social .twitter{
 	text-indent:-9999px; 
 	display:block; 
 	width:31px; 
 	height:24px; 
 	background:url(images/sm-twitter-icon.png) no-repeat;
 }
-#home #top-social .linkedin{
+#home .top-social .linkedin{
 	text-indent:-9999px; 
 	display:block; 
 	width:26px; 
 	height:26px; 
 	background:url(images/sm-linkedin-icon.png) no-repeat;
 }
-#home #top-social .google{
+#home .top-social .google{
 	text-indent:-9999px; 
 	display:block; 
 	width:26px; 
@@ -120,35 +126,36 @@ p.small{
 /****************************************************/
 /* SHORT BIO SECTION */
 /****************************************************/
-#bio{margin:0px 43px; padding-top:45px;}
+/*#bio{margin:0px 43px; padding-top:45px;}*/
 
 /****************************************************/
 /* WORK SECTION */
 /****************************************************/
-#publications{margin:0px 43px; padding-top:45px;}
+/*#publications{margin:0px 43px; padding-top:45px;}*/
 #publications .content{overflow:auto;}
 
 /****************************************************/
 /* TUTORIALS SECTION */
 /****************************************************/
-#tutorials{margin:0px 43px; padding-top:45px;}
+/*#tutorials{margin:0px 43px; padding-top:45px;}*/
 #tutorials .content{overflow:auto;}
 
 /****************************************************/
 /* CONTACT SECTION */
 /****************************************************/
-#contact{margin:0px 43px; padding-top:45px;}
+/*#contact{margin:0px 43px; padding-top:45px;}*/
 
 #contact #form{
-	width:410px;
+	width:500px;
+	height:220px;
 	float:left;
 }
 #contact #social-footer{
 	width:300px;
-	float:left;
-	margin-left:75px;
+	height:220px;
+	float:right;
 }
-#contact #form #top-social li{padding-top:15px; float:left; list-style:none; margin-left:0px;}
+#contact #form .top-social li{padding-top:15px; float:left; list-style:none; margin-left:0px;}
 
 
 
