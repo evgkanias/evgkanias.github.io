@@ -127,7 +127,7 @@ p.small{
 /* SHORT BIO SECTION */
 /****************************************************/
 /*#bio{margin:0px 43px; padding-top:45px;}*/
-#bio p{
+#bio p, #bio li{
 	margin-left:50px;
 }
 
@@ -136,6 +136,14 @@ p.small{
 /****************************************************/
 /*#publications{margin:0px 43px; padding-top:45px;}*/
 #publications .content{overflow:auto;}
+
+/****************************************************/
+/* AWARDS SECTION */
+/****************************************************/
+/*#bio{margin:0px 43px; padding-top:45px;}*/
+#awards p{
+	margin-left:50px;
+}
 
 /****************************************************/
 /* TUTORIALS SECTION */
@@ -160,6 +168,10 @@ p.small{
 }
 #contact #form .top-social li{padding-top:15px; float:left; list-style:none; margin-left:0px;}
 
+#social-footer{
+	text-align:right;
+}
+
 
 
 /****************************************************/
@@ -179,7 +191,10 @@ p.small{
 /****************************************************/
 /* Buttons */
 /****************************************************/
-.hot-container p { margin-top: 4px; }
+.hot-container p {
+	margin-top: 4px;
+	margin-left: 0px !important;
+}
 a { text-decoration: none; margin: 0 1px; }
 
 .hot-container {
