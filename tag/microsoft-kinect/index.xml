@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microsoft kinect | Evripidis Gkanias</title>
+    <link>https://evgkanias.github.io/tag/microsoft-kinect/</link>
+      <atom:link href="https://evgkanias.github.io/tag/microsoft-kinect/index.xml" rel="self" type="application/rss+xml" />
+    <description>Microsoft kinect</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2022 Evripidis Gkanias</copyright><lastBuildDate>Mon, 31 Aug 2015 14:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://evgkanias.github.io/media/icon_hub0b98d3151be369414d13011ac1efa0e_21731_512x512_fill_lanczos_center_3.png</url>
+      <title>Microsoft kinect</title>
+      <link>https://evgkanias.github.io/tag/microsoft-kinect/</link>
+    </image>
+    
+    <item>
+      <title>Replay</title>
+      <link>https://evgkanias.github.io/project/replay/</link>
+      <pubDate>Mon, 31 Aug 2015 14:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/project/replay/</guid>
+      <description>&lt;p&gt;The RePlay project has as its goal the development of a technology platform
+that shall provide access and interpretation of digital content for Traditional
+Sports and Games (TSG). It will enable multiple modes of training, coaching and
+knowledge sharing that will contribute to the increased participation and preservation
+of traditional sport in the future. This will be achieved by developing a base
+technology and methodologies for the digitisation of the art and forms of play of a
+set of representative sports. In the case of RePlay, this will be field based 
+Gaelic team sports and Basque individual/doubles ball and court sports. 
+The fundamental structure of these sports is extensible to a vast majority of traditional
+minority sports and mainstream sports.&lt;/p&gt;
+&lt;p&gt;RePlay will consist of the design and implementation of a platform for the capture, annotation, indexing and provision of 3D sports content. It will include the analysis and specification of methodologies and ideal cost-effective hardware solutions for the extension of the project to other sports. The project will focus on the use of existing and near future 3D motion capture hardware. The project does not include the development of any hardware as an objective, as the market is already addressing this. It shall instead focus on the creation of the knowledge and underlying software tools that will provide a low-cost entry point to other TSG associations.&lt;/p&gt;
+&lt;p&gt;RePlay will focus on the analysis, capture and modelling of the basic styles and techniques of play common to all participants or the &amp;ldquo;Local Hero&amp;rdquo; using low-cost capture techniques. However, RePlay will also use advanced professional grade capture techniques on &amp;ldquo;National Heroes&amp;rdquo;. A national hero, or a recognised elite player, develops their sporting prowess to an extent that is unique. This presents Intangible Cultural Heritage to be preserved, an opportunity to allow the young to try to learn and emulate their heroes, and a scientific opportunity to compare and analyse the evolution in the changes of styles of play over time. RePlay will also include work on retrospective analysis of sports via video content.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

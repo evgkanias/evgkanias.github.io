@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Past &amp; Upcoming Talks | Evripidis Gkanias</title>
+    <link>https://evgkanias.github.io/event/</link>
+      <atom:link href="https://evgkanias.github.io/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Past &amp; Upcoming Talks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2022 Evripidis Gkanias</copyright><lastBuildDate>Wed, 22 Sep 2021 17:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://evgkanias.github.io/media/icon_hub0b98d3151be369414d13011ac1efa0e_21731_512x512_fill_lanczos_center_3.png</url>
+      <title>Past &amp; Upcoming Talks</title>
+      <link>https://evgkanias.github.io/event/</link>
+    </image>
+    
+    <item>
+      <title>The incentive circuit of the fruit fly brain: a computational perspective</title>
+      <link>https://evgkanias.github.io/talk/the-incentive-circuit-of-the-fruit-fly-brain-a-computational-perspective/</link>
+      <pubDate>Wed, 22 Sep 2021 17:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/the-incentive-circuit-of-the-fruit-fly-brain-a-computational-perspective/</guid>
+      <description>&lt;object data=&#34;the-incentive-circuit-of-the-fruitfly-brain-a-computational-perspective.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700px&#34; height=&#34;1050px&#34;&gt;
+&lt;embed src=&#34;the-incentive-circuit-of-the-fruitfly-brain-a-computational-perspective.pdf&#34;&gt;&lt;/embed&gt;
+&lt;/object&gt;</description>
+    </item>
+    
+    <item>
+      <title>How flies acquire, forget and assimilate memories: a computational perspective</title>
+      <link>https://evgkanias.github.io/talk/how-flies-acquire-forget-and-assimilate-memories-a-computational-perspective/</link>
+      <pubDate>Tue, 01 Jun 2021 15:32:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/how-flies-acquire-forget-and-assimilate-memories-a-computational-perspective/</guid>
+      <description>&lt;iframe src=&#34;https://uoe-my.sharepoint.com/:p:/g/personal/s1514920_ed_ac_uk/EbzhbagxPRxFkiF1DnYnKd8Bqe8S2jswN5uDMneSNgot-w?e=ooeSnY&amp;amp;action=embedview&amp;amp;wdAr=1.7777777777777777&#34; width=&#34;660px&#34; height=&#34;395px&#34; frameborder=&#34;0&#34;&gt;
+This is an embedded &lt;a target=&#34;_blank&#34; href=&#34;https://office.com&#34;&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=&#34;_blank&#34; href=&#34;https://office.com/webapps&#34;&gt;Office Online&lt;/a&gt;.
+&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>From skylight input to behavioural output: a computational model of the insect polarised light compass</title>
+      <link>https://evgkanias.github.io/talk/from-skylight-input-to-behavioural-output-a-computational-model-of-the-insect-polarised-light-compass/</link>
+      <pubDate>Tue, 19 Nov 2019 15:50:25 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/from-skylight-input-to-behavioural-output-a-computational-model-of-the-insect-polarised-light-compass/</guid>
+      <description>&lt;iframe src=&#34;https://uoe-my.sharepoint.com/:p:/g/personal/s1514920_ed_ac_uk/Ef2WGsuEXdxEkJke0kbWvncBIZB7U-5MdfZZqZEOfOXDog?e=S60uv9&amp;amp;action=embedview&amp;amp;wdAr=1.7777777777777777&#34; width=&#34;660px&#34; height=&#34;395px&#34; frameborder=&#34;0&#34;&gt;
+    This is an embedded &lt;a target=&#34;_blank&#34; href=&#34;https://office.com&#34;&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=&#34;_blank&#34; href=&#34;https://office.com/webapps&#34;&gt;Office Online&lt;/a&gt;.
+    &lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Robustness of a model of the insects&#39; celestial compass in realistic conditions</title>
+      <link>https://evgkanias.github.io/talk/robustness-of-a-model-of-the-insects-celestial-compass-in-realistic-conditions/</link>
+      <pubDate>Thu, 08 Aug 2019 16:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/robustness-of-a-model-of-the-insects-celestial-compass-in-realistic-conditions/</guid>
+      <description>&lt;object data=&#34;robustness-of-a-model-of-the-insects-celestial-compass-in-realistic-conditions.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700px&#34; height=&#34;1050px&#34;&gt;
+&lt;embed src=&#34;robustness-of-a-model-of-the-insects-celestial-compass-in-realistic-conditions.pdf&#34;&gt;&lt;/embed&gt;
+&lt;/object&gt;</description>
+    </item>
+    
+    <item>
+      <title>Imitating the Drosophila Larval Learning Behaviour on a Robot</title>
+      <link>https://evgkanias.github.io/talk/imitating-the-drosophila-larval-learning-behaviour-on-a-robot/</link>
+      <pubDate>Mon, 08 Oct 2018 14:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/imitating-the-drosophila-larval-learning-behaviour-on-a-robot/</guid>
+      <description>&lt;object data=&#34;imitating-the-drosophila-larval-learning-behaviour-on-a-robot.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700px&#34; height=&#34;550px&#34;&gt;
+&lt;embed src=&#34;imitating-the-drosophila-larval-learning-behaviour-on-a-robot.pdf&#34;&gt;&lt;/embed&gt;
+&lt;/object&gt;</description>
+    </item>
+    
+    <item>
+      <title>Neural models of ant navigation in a realistic 3D world</title>
+      <link>https://evgkanias.github.io/talk/neural-models-of-ant-navigation-in-a-realistic-3d-world/</link>
+      <pubDate>Sun, 22 Jul 2018 10:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/neural-models-of-ant-navigation-in-a-realistic-3d-world/</guid>
+      <description>&lt;object data=&#34;neural-models-of-ant-navigation-in-a-realistic-3d-world.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700px&#34; height=&#34;1050px&#34;&gt;
+&lt;embed src=&#34;neural-models-of-ant-navigation-in-a-realistic-3d-world.pdf&#34;&gt;&lt;/embed&gt;
+&lt;/object&gt;</description>
+    </item>
+    
+    <item>
+      <title>Predator Evasion by a Robocrab</title>
+      <link>https://evgkanias.github.io/talk/predator-evasion-by-a-robocrab/</link>
+      <pubDate>Thu, 27 Jul 2017 10:00:09 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/predator-evasion-by-a-robocrab/</guid>
+      <description>&lt;iframe src=&#34;https://uoe-my.sharepoint.com/:p:/g/personal/s1514920_ed_ac_uk/EZ-ile9R31ZBsJUBq9NS0BIBML5p_UEk4k-baWfazNQb6g?e=GA6CDE&amp;amp;action=embedview&amp;amp;wdAr=1.7777777777777777&#34; width=&#34;660px&#34; height=&#34;395px&#34; frameborder=&#34;0&#34;&gt;
+This is an embedded &lt;a target=&#34;_blank&#34; href=&#34;https://office.com&#34;&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=&#34;_blank&#34; href=&#34;https://office.com/webapps&#34;&gt;Office Online&lt;/a&gt;.
+&lt;/iframe&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1697 @@
+<!DOCTYPE html><html lang="en-gb" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Evripidis Gkanias" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Design a sensor that transforms skylight into a compass direction." />
+
+  
+  <link rel="alternate" hreflang="en-gb" href="https://evgkanias.github.io/project/invisible-cues/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.246129d782c938a644fe2d653d8a976f.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hub0b98d3151be369414d13011ac1efa0e_21731_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hub0b98d3151be369414d13011ac1efa0e_21731_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://evgkanias.github.io/project/invisible-cues/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Evripidis Gkanias" />
+  <meta property="og:url" content="https://evgkanias.github.io/project/invisible-cues/" />
+  <meta property="og:title" content="Exploiting invisible cues for robot navigation in complex natural environments | Evripidis Gkanias" />
+  <meta property="og:description" content="Design a sensor that transforms skylight into a compass direction." /><meta property="og:image" content="https://evgkanias.github.io/media/icon_hub0b98d3151be369414d13011ac1efa0e_21731_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://evgkanias.github.io/media/icon_hub0b98d3151be369414d13011ac1efa0e_21731_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-gb" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2017-03-01T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2017-03-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://evgkanias.github.io/project/invisible-cues/"
+  },
+  "headline": "Exploiting invisible cues for robot navigation in complex natural environments",
+  
+  "datePublished": "2017-03-01T00:00:00Z",
+  "dateModified": "2017-03-01T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Evripidis Gkanias"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Evripidis Gkanias",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://evgkanias.github.io/media/icon_hub0b98d3151be369414d13011ac1efa0e_21731_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Design a sensor that transforms skylight into a compass direction."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Exploiting invisible cues for robot navigation in complex natural environments | Evripidis Gkanias</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="bc8680a19f164de7acddb81f1ab79bb9" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.8f76bdc9e086322ed5147724ebba3d06.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Evripidis Gkanias</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Evripidis Gkanias</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/publication"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/event"><span>Events</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link  active" href="/project"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/uploads/gkanias.pdf"><span>CV</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Exploiting invisible cues for robot navigation in complex natural environments</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Mar 1, 2017
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://twitter.com/evgkanias" target="_blank" rel="noopener">
+    <i class="fab fa-twitter mr-1"></i>Follow</a>
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Outdoor navigation in natural environments remains a challenge for robotics.
+Recent breakthroughs in robot navigation have been dependent on specific sensor
+technologies, such as laser depth sensors and GPS, and advanced image processing.
+The ability of animals such as ants to navigate effectively without such
+power- and computation- hungry systems are a proof of principle that
+alternative cheaper approaches are viable. Ants also have specialised sensing,
+with a peripheral visual system that has evolved to be sensitive to crucial
+cues for navigation. Specifically, they make use of non-visible (to humans)
+light cues in the form of ultraviolet (UV) and polarised light detection.
+UV detection allows the important signal of the horizon shape against the sky
+to be easily distinguished. Polarised light detection provides an external
+compass cue of heading relative to the sun direction, even when only a small
+portion of the sky is visible.</p>
+<p>We propose to build a sensory system that gathers the full range of light
+cues available to the ant, in its natural ecological situation, and to analyse
+the information contained in this signal. We will also analyse how the
+specific sensor layout (ommatidia array), peripheral receptor characteristics,
+and the motor behaviour of the ant may contribute to extracting salient
+information. The data will form a test-bed for comparison of algorithmic and
+neural models of the processing that underlies the navigation capabilities
+of the ant. To date, these cues have been considered separately but we believe
+the navigational success of this system depends on the specific combination.
+For example, the directional information in the polarised sky may form an
+important part of visual memories; and UV information may contribute to
+disambiguation of the polarisation pattern and the robustness of this
+information under different cloud conditions.</p>
+<p>There has been a substantial increase in the last few years in research into
+insect neural pathways involved in processing these cues which has yet to be
+exploited in robot models. In particular there has been breakthrough work on
+the central brain mechanisms involved in decoding polarised light to obtain
+heading direction. There is also a rapidly increasing understanding of the
+circuits involved in learning, a key component of navigation capabilities.</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/robotics/">robotics</a>
+  
+  <a class="badge badge-light" href="/tag/computational-model/">computational model</a>
+  
+  <a class="badge badge-light" href="/tag/ant/">ant</a>
+  
+  <a class="badge badge-light" href="/tag/circuit/">circuit</a>
+  
+  <a class="badge badge-light" href="/tag/celestial/">celestial</a>
+  
+  <a class="badge badge-light" href="/tag/compass/">compass</a>
+  
+  <a class="badge badge-light" href="/tag/central-complex/">central complex</a>
+  
+  <a class="badge badge-light" href="/tag/navigation/">navigation</a>
+  
+  <a class="badge badge-light" href="/tag/skylight/">skylight</a>
+  
+  <a class="badge badge-light" href="/tag/polarisation/">polarisation</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://evgkanias.github.io/project/invisible-cues/&amp;text=Exploiting%20invisible%20cues%20for%20robot%20navigation%20in%20complex%20natural%20environments" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://evgkanias.github.io/project/invisible-cues/&amp;t=Exploiting%20invisible%20cues%20for%20robot%20navigation%20in%20complex%20natural%20environments" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Exploiting%20invisible%20cues%20for%20robot%20navigation%20in%20complex%20natural%20environments&amp;body=https://evgkanias.github.io/project/invisible-cues/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://evgkanias.github.io/project/invisible-cues/&amp;title=Exploiting%20invisible%20cues%20for%20robot%20navigation%20in%20complex%20natural%20environments" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Exploiting%20invisible%20cues%20for%20robot%20navigation%20in%20complex%20natural%20environments%20https://evgkanias.github.io/project/invisible-cues/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://evgkanias.github.io/project/invisible-cues/&amp;title=Exploiting%20invisible%20cues%20for%20robot%20navigation%20in%20complex%20natural%20environments" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://evgkanias.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hufb06bb315445d6376a13795851d41e6c_918501_270x270_fill_q75_lanczos_center.jpg" alt="Evripidis Gkanias"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://evgkanias.github.io/">Evripidis Gkanias</a></h5>
+      <h6 class="card-subtitle">PhD Candidate in Bio-inspired Autonomous Systems and Computational Neuroscience</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:ev.gkanias@ed.ac.uk" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=del7Iy0AAAAJ" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/evgkanias/" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://uk.linkedin.com/in/evgkanias" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/evgkanias" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+        <h2>Publications</h2>
+        
+          
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/how-do-backward-walking-ants-cataglyphis-velox-cope-with-navigational-uncertainty/" >How do backward-walking ants (Cataglyphis velox) cope with navigational uncertainty?</a>
+    </div>
+
+    
+    <a href="/publication/how-do-backward-walking-ants-cataglyphis-velox-cope-with-navigational-uncertainty/"  class="summary-link">
+      <div class="article-style">
+        <ul>
+<li>Backward-walking ants can steer using learnt terrestrial visual cues.</li>
+<li>Steering does not require forward body alignment.</li>
+<li>Steering may be based on the integration of attractive and repulsive views.</li>
+<li>Peeking behaviour is triggered in periods of low directional certainty.</li>
+<li>Directional certainty is built on multiple sources of current and past information.</li>
+</ul>
+
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Sebastian Schwarz</span>, <span >
+      Leo Clement</span>, <span class="author-highlighted">
+      Evripidis Gkanias</span>, <span >
+      Antoine Wystrach</span>
+      </div>
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/from-skylight-input-to-behavioural-output-a-computational-model-of-the-insect-polarised-light-compass/" >From skylight input to behavioural output: a computational model of the insect polarised light compass</a>
+    </div>
+
+    
+    <a href="/publication/from-skylight-input-to-behavioural-output-a-computational-model-of-the-insect-polarised-light-compass/"  class="summary-link">
+      <div class="article-style">
+        We propose a new hypothesis for how insects process polarised skylight to extract global orientation information that can be used for accurate path integration. Our model solves the problem of solar-antisolar meridian ambiguity by using a biologically constrained sensor array, and includes methods to deal with tilt and time, providing a complete insect celestial compass output. We analyse the performance of the model using a realistic sky simulation and various forms of disturbances, and compare the results to both engineering approaches and biological data.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span class="author-highlighted">
+      Evripidis Gkanias</span>, <span >
+      Benjamin Risse</span>, <span >
+      Michael Mangan</span>, <span >
+      Barbara Webb</span>
+      </div>
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/from-skylight-input-to-behavioural-output-a-computational-model-of-the-insect-polarised-light-compass/" >
+      <img src="/publication/from-skylight-input-to-behavioural-output-a-computational-model-of-the-insect-polarised-light-compass/featured_hu576167fe68a7930b22cacdb0c3765bb0_75883_150x0_resize_q75_h2_lanczos.webp" height="84" width="150"
+           alt="From skylight input to behavioural output: a computational model of the insect polarised light compass" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+        
+      
+
+      
+      
+      
+        <h2>Events</h2>
+        
+          
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/talk/from-skylight-input-to-behavioural-output-a-computational-model-of-the-insect-polarised-light-compass/" >From skylight input to behavioural output: a computational model of the insect polarised light compass</a>
+    </div>
+
+    
+    <a href="/talk/from-skylight-input-to-behavioural-output-a-computational-model-of-the-insect-polarised-light-compass/"  class="summary-link">
+      <div class="article-style">
+        In this talk we present our recent findings of the desert-ants' celestial compass which uses the polarised-light pattern in the sky to estimate its heading direction.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Nov 19, 2019 3:50 PM &mdash; 4:15 PM
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>International Conference Centre, Edinburgh, United Kingdom</span>
+        
+      </div>
+      
+
+      
+      <div>
+        
+
+  <span class="author-highlighted">
+      Evripidis Gkanias</span>, <span >
+      Benjamin Risse</span>, <span >
+      Michael Mangan</span>, <span >
+      Barbara Webb</span>
+      </div>
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/talk/robustness-of-a-model-of-the-insects-celestial-compass-in-realistic-conditions/" >Robustness of a model of the insects&#39; celestial compass in realistic conditions</a>
+    </div>
+
+    
+    <a href="/talk/robustness-of-a-model-of-the-insects-celestial-compass-in-realistic-conditions/"  class="summary-link">
+      <div class="article-style">
+         
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Aug 8, 2019 4:00 PM &mdash; 5:00 PM
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>Bäckaskog Slott, Sweden</span>
+        
+      </div>
+      
+
+      
+      <div>
+        
+
+  <span class="author-highlighted">
+      Evripidis Gkanias</span>, <span >
+      Alina Scaria</span>, <span >
+      Natalie A. Vladis</span>, <span >
+      Benjamin Risse</span>, <span >
+      Michael Mangan</span>, <span >
+      Barbara Webb</span>
+      </div>
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/talk/neural-models-of-ant-navigation-in-a-realistic-3d-world/" >Neural models of ant navigation in a realistic 3D world</a>
+    </div>
+
+    
+    <a href="/talk/neural-models-of-ant-navigation-in-a-realistic-3d-world/"  class="summary-link">
+      <div class="article-style">
+         
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Jul 22, 2018 10:00 AM &mdash; 12:00 PM
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>Brisbane, Australia</span>
+        
+      </div>
+      
+
+      
+      <div>
+        
+
+  <span >
+      Daniela Pacella</span>, <span class="author-highlighted">
+      Evripidis Gkanias</span>, <span >
+      Michael Mangan</span>, <span >
+      Barbara Webb</span>
+      </div>
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+        
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    © 2022 Evripidis Gkanias
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.1cb9e2fc8399acee94eab837265b73bf.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.247fd8f54253895301106e3006f53f38.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

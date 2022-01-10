@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fiddler crab | Evripidis Gkanias</title>
+    <link>https://evgkanias.github.io/tag/fiddler-crab/</link>
+      <atom:link href="https://evgkanias.github.io/tag/fiddler-crab/index.xml" rel="self" type="application/rss+xml" />
+    <description>fiddler crab</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2022 Evripidis Gkanias</copyright><lastBuildDate>Sun, 16 Jul 2017 13:00:51 +0000</lastBuildDate>
+    <image>
+      <url>https://evgkanias.github.io/media/icon_hub0b98d3151be369414d13011ac1efa0e_21731_512x512_fill_lanczos_center_3.png</url>
+      <title>fiddler crab</title>
+      <link>https://evgkanias.github.io/tag/fiddler-crab/</link>
+    </image>
+    
+    <item>
+      <title>Predator Evasion by a Robocrab</title>
+      <link>https://evgkanias.github.io/publication/predator-evasion-by-a-robocrab/</link>
+      <pubDate>Sun, 16 Jul 2017 13:00:51 +0000</pubDate>
+      <guid>https://evgkanias.github.io/publication/predator-evasion-by-a-robocrab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robocrab: data-driven adaptation of the evation behaviour in fiddler crabs</title>
+      <link>https://evgkanias.github.io/project/msc-thesis/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/project/msc-thesis/</guid>
+      <description>&lt;p&gt;We create a semi-supervised structure of neural network, inspired by
+the physiology of neurons in fiddler crabs, and train it to adapt the
+evasion behaviour of fiddler crabs on potential predators, solving a
+complicated visuomotor problem (developed in Python using the
+Theano/Tensorflow-based ‘keras’ library&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
