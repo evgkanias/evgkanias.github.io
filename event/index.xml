@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Past &amp; Upcoming Talks | Evripidis Gkanias</title>
+    <title>Events | Evripidis Gkanias</title>
     <link>https://evgkanias.github.io/event/</link>
       <atom:link href="https://evgkanias.github.io/event/index.xml" rel="self" type="application/rss+xml" />
-    <description>Past &amp; Upcoming Talks</description>
+    <description>Events</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2022 Evripidis Gkanias</copyright><lastBuildDate>Wed, 22 Sep 2021 17:00:00 +0000</lastBuildDate>
     <image>
       <url>https://evgkanias.github.io/media/icon_hub0b98d3151be369414d13011ac1efa0e_21731_512x512_fill_lanczos_center_3.png</url>
-      <title>Past &amp; Upcoming Talks</title>
+      <title>Events</title>
       <link>https://evgkanias.github.io/event/</link>
     </image>
     
