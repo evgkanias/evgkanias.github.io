@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>Circuits for navigation strategies inspired by insects</title>
+      <title>Adaptive circuits for navigation strategies inspired by insects</title>
       <link>https://evgkanias.github.io/project/phd-thesis/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       <guid>https://evgkanias.github.io/project/phd-thesis/</guid>
@@ -48,11 +48,36 @@ visual navigation mechanism&lt;/p&gt;
       <link>https://evgkanias.github.io/project/msc-thesis/</link>
       <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://evgkanias.github.io/project/msc-thesis/</guid>
-      <description>&lt;p&gt;We create a semi-supervised structure of neural network, inspired by
-the physiology of neurons in fiddler crabs, and train it to adapt the
-evasion behaviour of fiddler crabs on potential predators, solving a
-complicated visuomotor problem (developed in Python using the
-Theano/Tensorflow-based ‘keras’ library&lt;/p&gt;
+      <description>&lt;p&gt;Analysing the behaviour of animals and studying their brain structure is a common
+way to create bio-inspired artificial intelligence methods. Fiddler crabs are animals
+with specific limitations on their sensors that have a great ability of evading on the
+presence of potential predators. In this project we study these animals with respect to
+the physiology of their unique sensor – their vision – and their evading manoeuvres,
+in order to create a machine learning model, which imitates this interesting behaviour.
+More specifically, we propose a semi-supervised architecture of neural network, inspired
+by the structure of fiddler crabs’ brain and their evasion behaviour’s feedback
+loops. We combine location specific visual units and LSTM recurrent units in order to
+build a model capable to adapt this behaviour. We trained our model using a data-set
+we created using data from experiments done with living crabs in their habitat. Comparing
+our statistical results of our model’s behaviour with the ones of the original
+crabs behaviour we show that this model captured some key features of this behaviour
+as well as it seems to behave quite realistic in the simulations. Therefore, we show that
+it is reasonable to consider machine learning models as potential solutions in animal
+behaviour adaptation problems.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FI-STAR</title>
+      <link>https://evgkanias.github.io/project/fi-star/</link>
+      <pubDate>Mon, 31 Aug 2015 14:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/project/fi-star/</guid>
+      <description>&lt;p&gt;FI-STAR will establish early trials in the Health Care domain building on Future Internet (FI) technology leveraging on the outcomes of FI-PPP Phase 1.&lt;/p&gt;
+&lt;p&gt;It will become self-sufficient after the end of the project and will continue on a sustainable business model by several partners. In order to meet the requirements of a global Health industry FI-STAR will use a fundamentally different, “reverse” cloud approach that is. It will bring the software to the data, rather than bringing the data to the software. FI-STAR will create a robust framework based of the “software to data” paradigm.&lt;/p&gt;
+&lt;p&gt;A sustainable value chain following the life cycle of the Generic Enablers (GEs) will enable FI-STAR to grow beyond the lifetime of the project. FI-STAR will build a vertical community in order to create a sustainable ecosystem for all user groups in the global Health care and adjacent markets based on FI-PPP specifications.&lt;/p&gt;
+&lt;p&gt;FI-STAR will deploy and execute 7 early trials across Europe, serving more than 4 million people. Through the trials FI-STAR will validate the FI-PPP core platform concept by using GEs to build its framework and will introduce ultra-light interactive applications for user functionality.&lt;/p&gt;
+&lt;p&gt;It will pro-actively engage with the FI-PPP to propose specifications and standards.FI-STAR will use the latest digital media technology for community building and will proactively prepare for Phase 3 through targeted elicitation of new partners using open calls.&lt;/p&gt;
+&lt;p&gt;Finally, FI-STAR will collaborate with other FI-PPP projects, through the mechanisms in place, by actively interacting with all necessary bodies. FI-STAR is a unique opportunity for implementing Future Internet Private-Public Partnership in the Health Care domain, by offering to the community standardized and certified software including a safe, secure and resilient platform, taking advantage of all Cloud Computing benefits and guaranteeing the protection of sensitive and personal data travelling in Public Clouds.&lt;/p&gt;
 </description>
     </item>
     
