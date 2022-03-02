@@ -5,7 +5,7 @@
     <link>https://evgkanias.github.io/tag/fruitfly/</link>
       <atom:link href="https://evgkanias.github.io/tag/fruitfly/index.xml" rel="self" type="application/rss+xml" />
     <description>fruitfly</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2022 Evripidis Gkanias</copyright><lastBuildDate>Mon, 15 Nov 2021 14:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2022 Evripidis Gkanias</copyright><lastBuildDate>Wed, 02 Mar 2022 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://evgkanias.github.io/media/icon_hub0b98d3151be369414d13011ac1efa0e_21731_512x512_fill_lanczos_center_3.png</url>
       <title>fruitfly</title>
@@ -13,25 +13,30 @@
     </image>
     
     <item>
-      <title>The incentive circuit: memory dynamics in the mushroom body of Drosophila melanogaster</title>
+      <title>An incentive circuit for memory dynamics in the mushroom body of Drosophila melanogaster</title>
       <link>https://evgkanias.github.io/publication/the-incentive-circuit-memory-dynamics-in-the-mushroom-body-of-drosophila-melanogaster/</link>
-      <pubDate>Mon, 15 Nov 2021 14:00:00 +0000</pubDate>
+      <pubDate>Wed, 02 Mar 2022 14:00:00 +0000</pubDate>
       <guid>https://evgkanias.github.io/publication/the-incentive-circuit-memory-dynamics-in-the-mushroom-body-of-drosophila-melanogaster/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Adaptive circuits for navigation strategies inspired by insects</title>
+      <title>Insect Neuroethology of Reinforcement Learning</title>
       <link>https://evgkanias.github.io/project/phd-thesis/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       <guid>https://evgkanias.github.io/project/phd-thesis/</guid>
-      <description>&lt;p&gt;We come up with a computational model of the insect mushroom body,
-constrained by biological findings of the insect brain. This model is able
-to acquire, forget and assimilate (transfer from short- to long-term)
-associative memories, represent a spectrum of motivation for the
-animal and drive its behaviour. We examine the capabilities of this
-model as an olfactory conditioning system and as part of the insect
-visual navigation mechanism&lt;/p&gt;
+      <description>&lt;p&gt;The goal of my project is to investigate how insects acquire and retrieve memories, adapt to their environment and
+update their behaviour using their mushroom bodies (MB), with application in robotics. I have come up with a neural circuit
+called the &amp;lsquo;incentive circuit&amp;rsquo; that allows primitive, short- and long-term memory formation as well as transferring memories
+between the short- and long-term. This circuit is anatomically accurate and all the neurons and connections have been identified
+in the Drosophila melanogaster fruit fly. In addition, I have come up with a novel dopaminergic plasticity rule, which is based on
+recent findings of how dopamine works in mushroom bodies. This plasticity rule enables the hosting system (e.g., neural circuit)
+to create the necessary associations, but also to adapt to repeating inputs or forget inputs that are rarely experienced.
+Our incentive circuit and dopaminergic learning rule can explain a big volume of classical conditioning behavioural data,
+give insights into how long-term memory affects the behaviour of animals, and suggests parallels in the mammalian brain.&lt;/p&gt;
+&lt;p&gt;Next, I want to investigate how our dopaminergic plasticity rule would perform in classic reinforcement learning paradigms and test
+the performance of the incentive circuit in insect-inspired visual navigation tasks, e.g., in natural environments with high vegetation
+and the absence of GPS.&lt;/p&gt;
 </description>
     </item>
     
