@@ -17,18 +17,12 @@
       <link>https://evgkanias.github.io/project/phd-thesis/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       <guid>https://evgkanias.github.io/project/phd-thesis/</guid>
-      <description>&lt;p&gt;The goal of my project is to investigate how insects acquire and retrieve memories, adapt to their environment and
-update their behaviour using their mushroom bodies (MB), with application in robotics. I have come up with a neural circuit
-called the &amp;lsquo;incentive circuit&amp;rsquo; that allows primitive, short- and long-term memory formation as well as transferring memories
-between the short- and long-term. This circuit is anatomically accurate and all the neurons and connections have been identified
-in the Drosophila melanogaster fruit fly. In addition, I have come up with a novel dopaminergic plasticity rule, which is based on
-recent findings of how dopamine works in mushroom bodies. This plasticity rule enables the hosting system (e.g., neural circuit)
-to create the necessary associations, but also to adapt to repeating inputs or forget inputs that are rarely experienced.
-Our incentive circuit and dopaminergic learning rule can explain a big volume of classical conditioning behavioural data,
-give insights into how long-term memory affects the behaviour of animals, and suggests parallels in the mammalian brain.&lt;/p&gt;
-&lt;p&gt;Next, I want to investigate how our dopaminergic plasticity rule would perform in classic reinforcement learning paradigms and test
-the performance of the incentive circuit in insect-inspired visual navigation tasks, e.g., in natural environments with high vegetation
-and the absence of GPS.&lt;/p&gt;
+      <description>&lt;p&gt;We are looking for the underlying mechanism that allows reinforcement learning in insects. Based on recent findings on how
+dopamine affects the synaptic weights in the fruit fly brain, we develop a novel plasticity rule that allows for the observed
+memory dynamics, e.g., primitive, flexible or long-lasting memories, depending on the circuitry. We identify an anatomically
+accurate self-motivated circuit in the fruitfly brain, that can explain a big volume of neural and behavioural data in olfactory
+conditioning. We now test the found plasticity rule for different benchmarks in reinforcement learning, with the ambition to apply
+it for autonomous navigation in natural environments.&lt;/p&gt;
 </description>
     </item>
     
