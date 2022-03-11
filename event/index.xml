@@ -5,24 +5,12 @@
     <link>https://evgkanias.github.io/event/</link>
       <atom:link href="https://evgkanias.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Events</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2022 Evripidis Gkanias</copyright><lastBuildDate>Sat, 19 Mar 2022 20:30:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2022 Evripidis Gkanias</copyright><lastBuildDate>Wed, 22 Sep 2021 17:00:00 +0000</lastBuildDate>
     <image>
       <url>https://evgkanias.github.io/media/icon_hub0b98d3151be369414d13011ac1efa0e_21731_512x512_fill_lanczos_center_3.png</url>
       <title>Events</title>
       <link>https://evgkanias.github.io/event/</link>
     </image>
-    
-    <item>
-      <title>An anatomically accurate circuit for short- and long-term motivational learning in fruit flies</title>
-      <link>https://evgkanias.github.io/talk/an-anatomically-accurate-circuit-for-short-and-long-term-motivational-learning-in-fruit-flies/</link>
-      <pubDate>Sat, 19 Mar 2022 20:30:00 +0000</pubDate>
-      <guid>https://evgkanias.github.io/talk/an-anatomically-accurate-circuit-for-short-and-long-term-motivational-learning-in-fruit-flies/</guid>
-      <description>&lt;!-- &lt;object data=&#34;cosyne2022.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700px&#34; height=&#34;1050px&#34;&gt;
-&lt;embed src=&#34;cosyne2022.pdf&#34;&gt;&lt;/embed&gt;
-&lt;/object&gt; --&gt;&lt;blockquote&gt;
-&lt;/blockquote&gt;
-</description>
-    </item>
     
     <item>
       <title>The incentive circuit of the fruit fly brain: a computational perspective</title>
