@@ -5,12 +5,21 @@
     <link>https://evgkanias.github.io/tag/celestial/</link>
       <atom:link href="https://evgkanias.github.io/tag/celestial/index.xml" rel="self" type="application/rss+xml" />
     <description>celestial</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2022 Evripidis Gkanias</copyright><lastBuildDate>Thu, 18 Jul 2019 13:00:25 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2022 Evripidis Gkanias</copyright><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://evgkanias.github.io/media/icon_hu22afa8837ab305f0f3e5e2b9e7b7c4db_6290075_512x512_fill_lanczos_center_3.png</url>
       <title>celestial</title>
       <link>https://evgkanias.github.io/tag/celestial/</link>
     </image>
+    
+    <item>
+      <title>Insect neuro nano</title>
+      <link>https://evgkanias.github.io/project/insect-neuro-nano/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/project/insect-neuro-nano/</guid>
+      <description>&lt;p&gt;Implement a sensor that transforms skylight into a navigational output, by using nano-wires and molecular dyes.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>From skylight input to behavioural output: a computational model of the insect polarised light compass</title>

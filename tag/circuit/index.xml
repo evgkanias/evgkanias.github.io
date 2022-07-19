@@ -5,12 +5,21 @@
     <link>https://evgkanias.github.io/tag/circuit/</link>
       <atom:link href="https://evgkanias.github.io/tag/circuit/index.xml" rel="self" type="application/rss+xml" />
     <description>circuit</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2022 Evripidis Gkanias</copyright><lastBuildDate>Tue, 08 Mar 2022 14:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2022 Evripidis Gkanias</copyright><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://evgkanias.github.io/media/icon_hu22afa8837ab305f0f3e5e2b9e7b7c4db_6290075_512x512_fill_lanczos_center_3.png</url>
       <title>circuit</title>
       <link>https://evgkanias.github.io/tag/circuit/</link>
     </image>
+    
+    <item>
+      <title>Insect neuro nano</title>
+      <link>https://evgkanias.github.io/project/insect-neuro-nano/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/project/insect-neuro-nano/</guid>
+      <description>&lt;p&gt;Implement a sensor that transforms skylight into a navigational output, by using nano-wires and molecular dyes.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>An incentive circuit for memory dynamics in the mushroom body of Drosophila melanogaster</title>
@@ -25,30 +34,29 @@
       <link>https://evgkanias.github.io/project/phd-thesis/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       <guid>https://evgkanias.github.io/project/phd-thesis/</guid>
-      <description>&lt;p&gt;Historically, reinforcement learning is a branch of machine learning founded on observations of how biological systems,
-such as animals, learn to survive in their environment. This enabled collaboration between the fields of biology and artificial intelligence,
-which aimed to benefit both by creating smarter artificial agents and improving our understanding of how biological systems function.
-The evolution of reinforcement learning during the past few years is rapid, which mostly built on the advantages of deep learning and artificial neural networks,
-allowed computational models to outperform humans in certain tasks, like playing board and video games, solving complicated puzzles, and controlling robotic parts.
-These led to breakthroughs in artificial intelligence that massively increased the popularity of reinforcement learning as a tool to optimise the
-parameters of computational models. However, these successful but rather complicated models can no longer provide any insights into how biological systems work.
-In order to bridge the gap between reinforcement learning and biology, at least to some extent, we have decided to study the neuroethology of reinforcement learning,
-focusing on the insect brain. The term neuroethology refers to the neural basis of natural behaviour in animals. Therefore, our goal is to extract a biologically plausible
-plasticity function from insect-neuroscience data, use them to explain biological findings and provide insights on how this function can be incorporated into more
-standard reinforcement learning.&lt;/p&gt;
-&lt;p&gt;More specifically, we studied the function of dopamine as the plasticity mechanism between neurons in the insect brain and developed our own dopaminergic plasticity rule
-that allows a range of observed learning phenomena to happen in parallel. Using anatomical data of connections between neurons in the same brain regions,
-we also develop a neural circuit of dopaminergic and output neurons (related to actions in the reinforcement learning context), which together with the dopaminergic
-plasticity rule allows complicated memory dynamics: acquiring, transferring and forgetting memories based on both internal and external signals.
-The model can reproduce the observed changes in the activity of each of the identified neurons in olfactory conditioning paradigms, replicate the observed behaviour
-of the animals, and allow for flexible behavioural control. We further challenged our model in visual place recognition.
-Although a relatively simple encoding of the olfactory information is sufficient in order to explain the observed behaviour,
-we found that the encoding of the visual input must be more sophisticated, simultaneously reducing the correlation among the extracted features,
-and increasing the number of features and sparsity of the feature vector. A combination of signal whitening, based on the principle component analysis,
-and a heuristic combinatorial approach, was sufficient to boost the performance of our model in the visual place recognition task and create useful correlations among
-the extracted features. Moreover, we showed that the memory dynamics (which emerged from our circuit) enable increasing certainty when familiar places are presented in a
-sequence but not necessarily in the correct order. Finally, we challenged our model with classic reinforcement learning benchmarks, and suggest that spatial-correlated
-features are less useful than time-correlated ones.&lt;/p&gt;
+      <description>&lt;p&gt;Historically, reinforcement learning is a branch of machine learning founded on observations of how animals learn.
+This involved collaboration between the fields of biology and artificial intelligence that was beneficial to both fields,
+creating smarter artificial agents and improving the understanding of how biological systems function.
+The evolution of reinforcement learning during the past few years was rapid, but substantially diverged from providing insights into how biological systems work,
+opening a gap between reinforcement learning and biology.
+In attempt to close this gap, this thesis studied the insect neuroethology of reinforcement learning, that is,
+the neural circuits that underlie reinforcement-learning-related behaviour in insects.
+The goal was to extract a biologically plausible plasticity function from insect-neuroscience data, use this to explain biological findings,
+and compare it to more standard reinforcement learning models.&lt;/p&gt;
+&lt;p&gt;Consequently, a novel dopaminergic plasticity rule was developed to approximate the function of dopamine as the plasticity mechanism between neurons in the insect brain.
+This allowed a range of observed learning phenomena to happen in parallel, like memory depression, potentiation, recovery, and saturation.
+In addition, by using anatomical data of connections between neurons in the mushroom body neuropils of the insect brain, the neural incentive circuit of dopaminergic and output neurons
+was also explored. This, together with the dopaminergic plasticity rule, allowed for dynamic collaboration amongst parallel memory functions,
+such as acquisition, transfer, and forgetting.
+When tested on olfactory conditioning paradigms, the model reproduced the observed changes in the activity of the identified neurons in fruit flies.
+It also replicated the observed behaviour of the animals and it allowed for flexible behavioural control. Inspired by the visual navigation system of desert ants,
+the model was further challenged in the visual place recognition task.
+Although a relatively simple encoding of the olfactory information was sufficient to explain odour learning,
+a more sophisticated encoding of the visual input was required to increase the separability among the visual inputs and enable visual place recognition.
+Signal whitening and sparse combinatorial encoding were sufficient to boost the performance of the system in this task.
+The incentive circuit enabled increasing confidence when familiar places were presented in a sequence but not necessarily in the correct order.
+Finally, the proposed model was challenged in delayed reinforcement tasks, and
+preliminary results suggested that the temporal resolution of the task is crucial for meaningful memory dynamics.&lt;/p&gt;
 </description>
     </item>
     
