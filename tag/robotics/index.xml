@@ -17,7 +17,17 @@
       <link>https://evgkanias.github.io/project/insect-neuro-nano/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://evgkanias.github.io/project/insect-neuro-nano/</guid>
-      <description>&lt;p&gt;Implement a sensor that transforms skylight into a navigational output, by using nano-wires and molecular dyes.&lt;/p&gt;
+      <description>&lt;p&gt;The goal of the project is to develop nanophotonic on-chip devices for integrated sensing and neural computation, inspired by the insect brain.
+This will uniquely combine four lines of research:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Progress in understanding insect neurobiology that provides proven circuit designs to solve significant problems such as autonomous navigation;&lt;/li&gt;
+&lt;li&gt;Advanced III-V semiconductor nanowire technology that exploits light to obtain a large number of interconnects with extremely low power consumption;&lt;/li&gt;
+&lt;li&gt;Optically efficient stable molecular dyes that can be used for novel memory components;&lt;/li&gt;
+&lt;li&gt;Circuit technology developed for quantum computing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As proof of concept, we target the complete pathway from polarised light sensing in the insect eye to the internal compass and memory circuits by which this information is integrated in a continuous accurate estimate of location.&lt;/p&gt;
+&lt;p&gt;The project is funded by the EC in the Horizon Europe programme (GA 101046790). The project started on 1st of April 2022 and run for four years.&lt;/p&gt;
+&lt;p&gt;The project is a collaboration of research groups at Lund University, the University of Copenhagen, the University of Edinburgh, and University of Groningen.&lt;/p&gt;
 </description>
     </item>
     
