@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>larvae | Evripidis Gkanias</title>
+    <link>https://evgkanias.github.io/tag/larvae/</link>
+      <atom:link href="https://evgkanias.github.io/tag/larvae/index.xml" rel="self" type="application/rss+xml" />
+    <description>larvae</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2023 Evripidis Gkanias</copyright><lastBuildDate>Mon, 08 Oct 2018 14:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://evgkanias.github.io/media/icon_hu22afa8837ab305f0f3e5e2b9e7b7c4db_6290075_512x512_fill_lanczos_center_3.png</url>
+      <title>larvae</title>
+      <link>https://evgkanias.github.io/tag/larvae/</link>
+    </image>
+    
+    <item>
+      <title>Imitating the Drosophila Larval Learning Behaviour on a Robot</title>
+      <link>https://evgkanias.github.io/talk/imitating-the-drosophila-larval-learning-behaviour-on-a-robot/</link>
+      <pubDate>Mon, 08 Oct 2018 14:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/imitating-the-drosophila-larval-learning-behaviour-on-a-robot/</guid>
+      <description>&lt;object data=&#34;imitating-the-drosophila-larval-learning-behaviour-on-a-robot.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700px&#34; height=&#34;550px&#34;&gt;
+&lt;embed src=&#34;imitating-the-drosophila-larval-learning-behaviour-on-a-robot.pdf&#34;&gt;&lt;/embed&gt;
+&lt;/object&gt;</description>
+    </item>
+    
+    <item>
+      <title>Miniature insect model for active learning (minimal)</title>
+      <link>https://evgkanias.github.io/project/minimal/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/project/minimal/</guid>
+      <description>&lt;p&gt;Biology provides the inspiration for a vision of small low-power devices that are able to learn rapidly and autonomously about environmental contingencies, enabling prediction and adaptive anticipatory action. Larval Drosophila have fewer than 10,000 neurons, yet express a variety of complex orientation and learning behaviours, including non-trivial anticipatory actions requiring context-dependent evaluation of the value of learned cues. Current computational learning theory cannot fully account for or replicate these capacities. We aim to develop a new foundation for understanding natural learning by developing a complete multilevel model of learning in larvae.&lt;/p&gt;
+&lt;p&gt;Our aims are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;to analyse at a fine scale how larval olfactory behaviour is controlled and altered by associative conditioning, linked to agent-based models that ground learning capabilities in ongoing sensorimotor control;&lt;/li&gt;
+&lt;li&gt;to build one-to-one computational neural models that can be validated by exploiting the recent expansion of the Drosophila neurogenetic toolkit to gain unprecedented ability to characterise and manipulate neural circuits during unconstrained behaviour;&lt;/li&gt;
+&lt;li&gt;to derive from these models novel, generalisable algorithms and circuit architectures that can be used to enhance the learning and anticipatory capabilities of machines.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

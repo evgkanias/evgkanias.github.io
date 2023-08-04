@@ -5,12 +5,22 @@
     <link>https://evgkanias.github.io/event/</link>
       <atom:link href="https://evgkanias.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Events</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2023 Evripidis Gkanias</copyright><lastBuildDate>Sun, 28 May 2023 16:00:00 +0200</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2023 Evripidis Gkanias</copyright><lastBuildDate>Tue, 22 Aug 2023 10:40:00 +0000</lastBuildDate>
     <image>
       <url>https://evgkanias.github.io/media/icon_hu22afa8837ab305f0f3e5e2b9e7b7c4db_6290075_512x512_fill_lanczos_center_3.png</url>
       <title>Events</title>
       <link>https://evgkanias.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>Multimodal skylight information improves the estimation of the celestial compass: insights from a hardware implementation</title>
+      <link>https://evgkanias.github.io/talk/multimodal-skylight-information-improves-the-estimation-of-the-celestial-compass-insights-from-a-hardware-implementation/</link>
+      <pubDate>Tue, 22 Aug 2023 10:40:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/multimodal-skylight-information-improves-the-estimation-of-the-celestial-compass-insights-from-a-hardware-implementation/</guid>
+      <description>&lt;iframe src=&#34;https://uoe-my.sharepoint.com/:p:/g/personal/egkanias_ed_ac_uk/EWL6VCSDjCRLvssdYn8ClLsB7dz3rjbM3y_Imx3nJv6d4g?e=XK4O4I&amp;amp;action=embedview&amp;amp;wdAr=1.7777777777777777&#34; width=&#34;660px&#34; height=&#34;395px&#34; frameborder=&#34;0&#34;&gt;
+    This is an embedded &lt;a target=&#34;_blank&#34; href=&#34;https://office.com&#34;&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=&#34;_blank&#34; href=&#34;https://office.com/webapps&#34;&gt;Office Online&lt;/a&gt;.
+    &lt;/iframe&gt;</description>
+    </item>
     
     <item>
       <title>Memory dynamics in Drosophila&#39;s mushroom body: a computational view</title>

@@ -1,0 +1,1516 @@
+<!DOCTYPE html><html lang="en-gb" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Evripidis Gkanias" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="The most common problem in navigation is the accumulation of directional errors. Insects solve this problem using a neural compass   based on external celestial cues. In previous work, we hypothesised a computational model of a neural circuit that converted polarised skylight to compass direction. The model was constrained by the insect’s sensor array and operated under a simulated sky. Using only the polarisation pattern of the sky, it could accurately estimate the solar azimuth, elevation, and the confidence of its estimations.
+
+In order to estimate the performance of this model in real-sky conditions, we built a compass sensor prototype with eight polarisation sensitive units arranged on a ring (simplifying the dome structure of the original model) and elevated by 45 degree. Following the model’s description, each unit integrated the input of two photodiodes to separate the light intensity from the degree of polarization. The photodiodes were sensitive to ultraviolet (UV) light and placed under linear polarisation filters, which were aligned with the units’ meridian and oriented perpendicularly to each other. We collected the responses of the photodiodes while rotating the compass sensor under different sky conditions: clear or overcast sky, under trees or solid canopies, and at different times of the day. The compass model used these to estimate the heading direction with respect to the sun. Finally, we estimated the heading direction using different modalities of light (intensity or degree of polarisation) and compared their performance.
+
+Light intensity seemed particularly useful as a cue under clear sky conditions and when the sun was clearly visible by the sensor. The degree of polarisation made the estimations of the compass more accurate when the sun was hidden, under thin clouds or tree covers. Simple retinotopic integration of the two modalities outperformed both the intensity- and polarisation-only models and utilised the advantages of both. Our results suggested that the compass design and computational model could successfully predict the location of the sun in most solar elevations, cloud covers, occlusions and atmospheric conditions. Also, this hardware implementation allowed for interesting predictions on the different stages of the polarisation pathway in the insect brain." />
+
+  
+  <link rel="alternate" hreflang="en-gb" href="https://evgkanias.github.io/talk/multimodal-skylight-information-improves-the-estimation-of-the-celestial-compass-insights-from-a-hardware-implementation/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.246129d782c938a644fe2d653d8a976f.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YEE1EEYWMH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-YEE1EEYWMH', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu22afa8837ab305f0f3e5e2b9e7b7c4db_6290075_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu22afa8837ab305f0f3e5e2b9e7b7c4db_6290075_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://evgkanias.github.io/talk/multimodal-skylight-information-improves-the-estimation-of-the-celestial-compass-insights-from-a-hardware-implementation/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="Evripidis Gkanias" />
+  <meta property="og:url" content="https://evgkanias.github.io/talk/multimodal-skylight-information-improves-the-estimation-of-the-celestial-compass-insights-from-a-hardware-implementation/" />
+  <meta property="og:title" content="Multimodal skylight information improves the estimation of the celestial compass: insights from a hardware implementation | Evripidis Gkanias" />
+  <meta property="og:description" content="The most common problem in navigation is the accumulation of directional errors. Insects solve this problem using a neural compass   based on external celestial cues. In previous work, we hypothesised a computational model of a neural circuit that converted polarised skylight to compass direction. The model was constrained by the insect’s sensor array and operated under a simulated sky. Using only the polarisation pattern of the sky, it could accurately estimate the solar azimuth, elevation, and the confidence of its estimations.
+
+In order to estimate the performance of this model in real-sky conditions, we built a compass sensor prototype with eight polarisation sensitive units arranged on a ring (simplifying the dome structure of the original model) and elevated by 45 degree. Following the model’s description, each unit integrated the input of two photodiodes to separate the light intensity from the degree of polarization. The photodiodes were sensitive to ultraviolet (UV) light and placed under linear polarisation filters, which were aligned with the units’ meridian and oriented perpendicularly to each other. We collected the responses of the photodiodes while rotating the compass sensor under different sky conditions: clear or overcast sky, under trees or solid canopies, and at different times of the day. The compass model used these to estimate the heading direction with respect to the sun. Finally, we estimated the heading direction using different modalities of light (intensity or degree of polarisation) and compared their performance.
+
+Light intensity seemed particularly useful as a cue under clear sky conditions and when the sun was clearly visible by the sensor. The degree of polarisation made the estimations of the compass more accurate when the sun was hidden, under thin clouds or tree covers. Simple retinotopic integration of the two modalities outperformed both the intensity- and polarisation-only models and utilised the advantages of both. Our results suggested that the compass design and computational model could successfully predict the location of the sun in most solar elevations, cloud covers, occlusions and atmospheric conditions. Also, this hardware implementation allowed for interesting predictions on the different stages of the polarisation pathway in the insect brain." /><meta property="og:image" content="https://evgkanias.github.io/talk/multimodal-skylight-information-improves-the-estimation-of-the-celestial-compass-insights-from-a-hardware-implementation/featured.png" />
+    <meta property="twitter:image" content="https://evgkanias.github.io/talk/multimodal-skylight-information-improves-the-estimation-of-the-celestial-compass-insights-from-a-hardware-implementation/featured.png" /><meta property="og:locale" content="en-gb" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2023-08-02T20:00:25&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2023-08-22T10:40:00&#43;00:00">
+  
+
+  
+
+
+
+  
+    
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://evgkanias.github.io/talk/multimodal-skylight-information-improves-the-estimation-of-the-celestial-compass-insights-from-a-hardware-implementation/"
+  },
+  "name": "Multimodal skylight information improves the estimation of the celestial compass: insights from a hardware implementation",
+  
+  "location": {
+    "@type": "Place",
+    "name": "Bäckaskog Slott, Sweden"
+  },
+  
+  
+  "image": [
+    "https://evgkanias.github.io/talk/multimodal-skylight-information-improves-the-estimation-of-the-celestial-compass-insights-from-a-hardware-implementation/featured.png"
+  ],
+  
+  "startDate": "2023-08-22T10:40:00Z",
+  
+  "endDate": "2023-08-02T11:00:00Z",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "Evripidis Gkanias"
+  },
+  
+  "description": "The most common problem in navigation is the accumulation of directional errors. Insects solve this problem using a neural compass   based on external celestial cues. In previous work, we hypothesised a computational model of a neural circuit that converted polarised skylight to compass direction. The model was constrained by the insect’s sensor array and operated under a simulated sky. Using only the polarisation pattern of the sky, it could accurately estimate the solar azimuth, elevation, and the confidence of its estimations.\n\nIn order to estimate the performance of this model in real-sky conditions, we built a compass sensor prototype with eight polarisation sensitive units arranged on a ring (simplifying the dome structure of the original model) and elevated by 45 degree. Following the model’s description, each unit integrated the input of two photodiodes to separate the light intensity from the degree of polarization. The photodiodes were sensitive to ultraviolet (UV) light and placed under linear polarisation filters, which were aligned with the units’ meridian and oriented perpendicularly to each other. We collected the responses of the photodiodes while rotating the compass sensor under different sky conditions: clear or overcast sky, under trees or solid canopies, and at different times of the day. The compass model used these to estimate the heading direction with respect to the sun. Finally, we estimated the heading direction using different modalities of light (intensity or degree of polarisation) and compared their performance.\n\nLight intensity seemed particularly useful as a cue under clear sky conditions and when the sun was clearly visible by the sensor. The degree of polarisation made the estimations of the compass more accurate when the sun was hidden, under thin clouds or tree covers. Simple retinotopic integration of the two modalities outperformed both the intensity- and polarisation-only models and utilised the advantages of both. Our results suggested that the compass design and computational model could successfully predict the location of the sun in most solar elevations, cloud covers, occlusions and atmospheric conditions. Also, this hardware implementation allowed for interesting predictions on the different stages of the polarisation pathway in the insect brain."
+}
+</script>
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Multimodal skylight information improves the estimation of the celestial compass: insights from a hardware implementation | Evripidis Gkanias</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="1616de4bae76c7585a16c385425a47d2" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.8f76bdc9e086322ed5147724ebba3d06.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Evripidis Gkanias</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Evripidis Gkanias</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#publications"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Events</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#research"><span>Experience</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#accomplishments"><span>Awards</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+              
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/uploads/gkanias.pdf" target="_blank" rel="noopener"><span>Resumé</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Multimodal skylight information improves the estimation of the celestial compass: insights from a hardware implementation</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Evripidis Gkanias</span>, <span >
+      Robert Mitchell</span>, <span >
+      Barbara Webb</span>
+  </div>
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/project/insect-neuro-nano/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 150px; max-height: 50px;">
+  <div style="position: relative">
+    <img src="/talk/multimodal-skylight-information-improves-the-estimation-of-the-celestial-compass-insights-from-a-hardware-implementation/featured_hu79c923dcd96ed4e9b1859d63bac07fdc_2430_720x2500_fit_q75_h2_lanczos_3.webp" width="150" height="50" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    
+      <h3>Abstract</h3>
+      <p class="pub-abstract"><p>The most common problem in navigation is the accumulation of directional errors. Insects solve this problem using a neural compass   based on external celestial cues. In previous work, we hypothesised a computational model of a neural circuit that converted polarised skylight to compass direction. The model was constrained by the insect’s sensor array and operated under a simulated sky. Using only the polarisation pattern of the sky, it could accurately estimate the solar azimuth, elevation, and the confidence of its estimations.</p>
+<p>In order to estimate the performance of this model in real-sky conditions, we built a compass sensor prototype with eight polarisation sensitive units arranged on a ring (simplifying the dome structure of the original model) and elevated by 45 degree. Following the model’s description, each unit integrated the input of two photodiodes to separate the light intensity from the degree of polarization. The photodiodes were sensitive to ultraviolet (UV) light and placed under linear polarisation filters, which were aligned with the units’ meridian and oriented perpendicularly to each other. We collected the responses of the photodiodes while rotating the compass sensor under different sky conditions: clear or overcast sky, under trees or solid canopies, and at different times of the day. The compass model used these to estimate the heading direction with respect to the sun. Finally, we estimated the heading direction using different modalities of light (intensity or degree of polarisation) and compared their performance.</p>
+<p>Light intensity seemed particularly useful as a cue under clear sky conditions and when the sun was clearly visible by the sensor. The degree of polarisation made the estimations of the compass more accurate when the sun was hidden, under thin clouds or tree covers. Simple retinotopic integration of the two modalities outperformed both the intensity- and polarisation-only models and utilised the advantages of both. Our results suggested that the compass design and computational model could successfully predict the location of the sun in most solar elevations, cloud covers, occlusions and atmospheric conditions. Also, this hardware implementation allowed for interesting predictions on the different stages of the polarisation pathway in the insect brain.</p>
+</p>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            Aug 22, 2023 10:40 AM &mdash; Aug 2, 2023 11:00 AM
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            <a href="https://www.iciv.se/" target="_blank" rel="noopener">
+            International Conference on Invertebrate Vision
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">Bäckaskog Slott, Sweden</div>
+          
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      <iframe src="https://uoe-my.sharepoint.com/:p:/g/personal/egkanias_ed_ac_uk/EWL6VCSDjCRLvssdYn8ClLsB7dz3rjbM3y_Imx3nJv6d4g?e=XK4O4I&amp;action=embedview&amp;wdAr=1.7777777777777777" width="660px" height="395px" frameborder="0">
+    This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office Online</a>.
+    </iframe>
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/bio-inspired-robotics/">bio-inspired robotics</a>
+  
+  <a class="badge badge-light" href="/tag/central-complex/">central complex</a>
+  
+  <a class="badge badge-light" href="/tag/computational-model/">computational model</a>
+  
+  <a class="badge badge-light" href="/tag/computer-vision/">computer vision</a>
+  
+  <a class="badge badge-light" href="/tag/insect/">insect</a>
+  
+  <a class="badge badge-light" href="/tag/navigation/">navigation</a>
+  
+  <a class="badge badge-light" href="/tag/celestial-compass/">celestial compass</a>
+  
+  <a class="badge badge-light" href="/tag/polarisation/">polarisation</a>
+  
+  <a class="badge badge-light" href="/tag/skylight/">skylight</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://evgkanias.github.io/talk/multimodal-skylight-information-improves-the-estimation-of-the-celestial-compass-insights-from-a-hardware-implementation/&amp;text=Multimodal%20skylight%20information%20improves%20the%20estimation%20of%20the%20celestial%20compass:%20insights%20from%20a%20hardware%20implementation" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://evgkanias.github.io/talk/multimodal-skylight-information-improves-the-estimation-of-the-celestial-compass-insights-from-a-hardware-implementation/&amp;t=Multimodal%20skylight%20information%20improves%20the%20estimation%20of%20the%20celestial%20compass:%20insights%20from%20a%20hardware%20implementation" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Multimodal%20skylight%20information%20improves%20the%20estimation%20of%20the%20celestial%20compass:%20insights%20from%20a%20hardware%20implementation&amp;body=https://evgkanias.github.io/talk/multimodal-skylight-information-improves-the-estimation-of-the-celestial-compass-insights-from-a-hardware-implementation/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://evgkanias.github.io/talk/multimodal-skylight-information-improves-the-estimation-of-the-celestial-compass-insights-from-a-hardware-implementation/&amp;title=Multimodal%20skylight%20information%20improves%20the%20estimation%20of%20the%20celestial%20compass:%20insights%20from%20a%20hardware%20implementation" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Multimodal%20skylight%20information%20improves%20the%20estimation%20of%20the%20celestial%20compass:%20insights%20from%20a%20hardware%20implementation%20https://evgkanias.github.io/talk/multimodal-skylight-information-improves-the-estimation-of-the-celestial-compass-insights-from-a-hardware-implementation/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://evgkanias.github.io/talk/multimodal-skylight-information-improves-the-estimation-of-the-celestial-compass-insights-from-a-hardware-implementation/&amp;title=Multimodal%20skylight%20information%20improves%20the%20estimation%20of%20the%20celestial%20compass:%20insights%20from%20a%20hardware%20implementation" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://evgkanias.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hufb06bb315445d6376a13795851d41e6c_918501_270x270_fill_q75_lanczos_center.jpg" alt="Evripidis Gkanias"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://evgkanias.github.io/">Evripidis Gkanias</a></h5>
+      <h6 class="card-subtitle">Research Associate in Computational &amp; Neuromorphic Modelling</h6>
+      <p class="card-text">Post-doctoral research associate at the University of Edinburgh, School of Informatics, and the University of Groningen, Faculty of Science and Engineering.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:ev.gkanias@ed.ac.uk" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=del7Iy0AAAAJ" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/evgkanias/" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://uk.linkedin.com/in/evgkanias" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/evgkanias" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    © 2023 Evripidis Gkanias
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.1cb9e2fc8399acee94eab837265b73bf.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.247fd8f54253895301106e3006f53f38.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

@@ -5,7 +5,7 @@
     <link>https://evgkanias.github.io/tag/computer-vision/</link>
       <atom:link href="https://evgkanias.github.io/tag/computer-vision/index.xml" rel="self" type="application/rss+xml" />
     <description>computer vision</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2023 Evripidis Gkanias</copyright><lastBuildDate>Thu, 29 Jun 2023 14:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2023 Evripidis Gkanias</copyright><lastBuildDate>Tue, 22 Aug 2023 10:40:00 +0000</lastBuildDate>
     <image>
       <url>https://evgkanias.github.io/media/icon_hu22afa8837ab305f0f3e5e2b9e7b7c4db_6290075_512x512_fill_lanczos_center_3.png</url>
       <title>computer vision</title>
@@ -13,11 +13,41 @@
     </image>
     
     <item>
+      <title>Multimodal skylight information improves the estimation of the celestial compass: insights from a hardware implementation</title>
+      <link>https://evgkanias.github.io/talk/multimodal-skylight-information-improves-the-estimation-of-the-celestial-compass-insights-from-a-hardware-implementation/</link>
+      <pubDate>Tue, 22 Aug 2023 10:40:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/multimodal-skylight-information-improves-the-estimation-of-the-celestial-compass-insights-from-a-hardware-implementation/</guid>
+      <description>&lt;iframe src=&#34;https://uoe-my.sharepoint.com/:p:/g/personal/egkanias_ed_ac_uk/EWL6VCSDjCRLvssdYn8ClLsB7dz3rjbM3y_Imx3nJv6d4g?e=XK4O4I&amp;amp;action=embedview&amp;amp;wdAr=1.7777777777777777&#34; width=&#34;660px&#34; height=&#34;395px&#34; frameborder=&#34;0&#34;&gt;
+    This is an embedded &lt;a target=&#34;_blank&#34; href=&#34;https://office.com&#34;&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=&#34;_blank&#34; href=&#34;https://office.com/webapps&#34;&gt;Office Online&lt;/a&gt;.
+    &lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
       <title>Celestial compass design mimics the fan-like polarisation filter array of insect eyes</title>
       <link>https://evgkanias.github.io/publication/celestial-compass-design-mimics-the-fan-like-polarisation-filter-array-of-insect-eyes/</link>
       <pubDate>Thu, 29 Jun 2023 14:00:00 +0000</pubDate>
       <guid>https://evgkanias.github.io/publication/celestial-compass-design-mimics-the-fan-like-polarisation-filter-array-of-insect-eyes/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>From skylight input to behavioural output: a computational model of the insect polarised light compass</title>
+      <link>https://evgkanias.github.io/talk/from-skylight-input-to-behavioural-output-a-computational-model-of-the-insect-polarised-light-compass/</link>
+      <pubDate>Tue, 19 Nov 2019 15:50:25 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/from-skylight-input-to-behavioural-output-a-computational-model-of-the-insect-polarised-light-compass/</guid>
+      <description>&lt;iframe src=&#34;https://uoe-my.sharepoint.com/:p:/g/personal/egkanias_ed_ac_uk/EYJlTlUnpjxIuJDqIVPhregBxy8ukpqqY7Aq_Tk9urPVrQ?e=tpNtgO&amp;amp;action=embedview&amp;amp;wdAr=1.7777777777777777&#34; width=&#34;660px&#34; height=&#34;395px&#34; frameborder=&#34;0&#34;&gt;
+    This is an embedded &lt;a target=&#34;_blank&#34; href=&#34;https://office.com&#34;&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=&#34;_blank&#34; href=&#34;https://office.com/webapps&#34;&gt;Office Online&lt;/a&gt;.
+    &lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Robustness of a model of the insects&#39; celestial compass in realistic conditions</title>
+      <link>https://evgkanias.github.io/talk/robustness-of-a-model-of-the-insects-celestial-compass-in-realistic-conditions/</link>
+      <pubDate>Thu, 08 Aug 2019 16:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/robustness-of-a-model-of-the-insects-celestial-compass-in-realistic-conditions/</guid>
+      <description>&lt;object data=&#34;robustness-of-a-model-of-the-insects-celestial-compass-in-realistic-conditions.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700px&#34; height=&#34;1020px&#34;&gt;
+&lt;embed src=&#34;robustness-of-a-model-of-the-insects-celestial-compass-in-realistic-conditions.pdf&#34;&gt;&lt;/embed&gt;
+&lt;/object&gt;</description>
     </item>
     
     <item>
@@ -43,11 +73,71 @@ This is an embedded &lt;a target=&#34;_blank&#34; href=&#34;https://office.com&#
     </item>
     
     <item>
+      <title>Neural models of ant navigation in a realistic 3D world</title>
+      <link>https://evgkanias.github.io/talk/neural-models-of-ant-navigation-in-a-realistic-3d-world/</link>
+      <pubDate>Sun, 22 Jul 2018 10:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/neural-models-of-ant-navigation-in-a-realistic-3d-world/</guid>
+      <description>&lt;object data=&#34;neural-models-of-ant-navigation-in-a-realistic-3d-world.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700px&#34; height=&#34;1050px&#34;&gt;
+&lt;embed src=&#34;neural-models-of-ant-navigation-in-a-realistic-3d-world.pdf&#34;&gt;&lt;/embed&gt;
+&lt;/object&gt;</description>
+    </item>
+    
+    <item>
+      <title>Predator Evasion by a Robocrab</title>
+      <link>https://evgkanias.github.io/talk/predator-evasion-by-a-robocrab/</link>
+      <pubDate>Thu, 27 Jul 2017 10:00:09 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/predator-evasion-by-a-robocrab/</guid>
+      <description>&lt;iframe src=&#34;https://uoe-my.sharepoint.com/:p:/g/personal/egkanias_ed_ac_uk/EXJXQfYJYUtLkq_JtR03zYYBtknESSPE00mawmYulovEEw?e=f8oYiT&amp;amp;action=embedview&amp;amp;wdAr=1.7777777777777777&#34; width=&#34;660px&#34; height=&#34;395px&#34; frameborder=&#34;0&#34;&gt;
+This is an embedded &lt;a target=&#34;_blank&#34; href=&#34;https://office.com&#34;&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=&#34;_blank&#34; href=&#34;https://office.com/webapps&#34;&gt;Office Online&lt;/a&gt;.
+&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
       <title>Predator Evasion by a Robocrab</title>
       <link>https://evgkanias.github.io/publication/predator-evasion-by-a-robocrab/</link>
       <pubDate>Sun, 16 Jul 2017 13:00:51 +0000</pubDate>
       <guid>https://evgkanias.github.io/publication/predator-evasion-by-a-robocrab/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Exploiting invisible cues for robot navigation in complex natural environments</title>
+      <link>https://evgkanias.github.io/project/invisible-cues/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/project/invisible-cues/</guid>
+      <description>&lt;p&gt;Outdoor navigation in natural environments remains a challenge for robotics.
+Recent breakthroughs in robot navigation have been dependent on specific sensor
+technologies, such as laser depth sensors and GPS, and advanced image processing.
+The ability of animals such as ants to navigate effectively without such
+power- and computation- hungry systems are a proof of principle that
+alternative cheaper approaches are viable. Ants also have specialised sensing,
+with a peripheral visual system that has evolved to be sensitive to crucial
+cues for navigation. Specifically, they make use of non-visible (to humans)
+light cues in the form of ultraviolet (UV) and polarised light detection.
+UV detection allows the important signal of the horizon shape against the sky
+to be easily distinguished. Polarised light detection provides an external
+compass cue of heading relative to the sun direction, even when only a small
+portion of the sky is visible.&lt;/p&gt;
+&lt;p&gt;We propose to build a sensory system that gathers the full range of light
+cues available to the ant, in its natural ecological situation, and to analyse
+the information contained in this signal. We will also analyse how the
+specific sensor layout (ommatidia array), peripheral receptor characteristics,
+and the motor behaviour of the ant may contribute to extracting salient
+information. The data will form a test-bed for comparison of algorithmic and
+neural models of the processing that underlies the navigation capabilities
+of the ant. To date, these cues have been considered separately but we believe
+the navigational success of this system depends on the specific combination.
+For example, the directional information in the polarised sky may form an
+important part of visual memories; and UV information may contribute to
+disambiguation of the polarisation pattern and the robustness of this
+information under different cloud conditions.&lt;/p&gt;
+&lt;p&gt;There has been a substantial increase in the last few years in research into
+insect neural pathways involved in processing these cues which has yet to be
+exploited in robot models. In particular there has been breakthrough work on
+the central brain mechanisms involved in decoding polarised light to obtain
+heading direction. There is also a rapidly increasing understanding of the
+circuits involved in learning, a key component of navigation capabilities.&lt;/p&gt;
+</description>
     </item>
     
     <item>

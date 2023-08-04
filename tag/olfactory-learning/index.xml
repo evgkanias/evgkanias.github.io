@@ -5,7 +5,7 @@
     <link>https://evgkanias.github.io/tag/olfactory-learning/</link>
       <atom:link href="https://evgkanias.github.io/tag/olfactory-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>olfactory learning</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2023 Evripidis Gkanias</copyright><lastBuildDate>Tue, 08 Mar 2022 14:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2023 Evripidis Gkanias</copyright><lastBuildDate>Sun, 28 May 2023 16:00:00 +0200</lastBuildDate>
     <image>
       <url>https://evgkanias.github.io/media/icon_hu22afa8837ab305f0f3e5e2b9e7b7c4db_6290075_512x512_fill_lanczos_center_3.png</url>
       <title>olfactory learning</title>
@@ -13,11 +13,66 @@
     </image>
     
     <item>
+      <title>Memory dynamics in Drosophila&#39;s mushroom body: a computational view</title>
+      <link>https://evgkanias.github.io/talk/memory-dynamics-in-drosophilas-mushroom-body-a-computational-view/</link>
+      <pubDate>Sun, 28 May 2023 16:00:00 +0200</pubDate>
+      <guid>https://evgkanias.github.io/talk/memory-dynamics-in-drosophilas-mushroom-body-a-computational-view/</guid>
+      <description>&lt;iframe src=&#34;https://uoe-my.sharepoint.com/:p:/g/personal/egkanias_ed_ac_uk/ERlTkmG7zpFMtJ6kgm_3yqEBwxYPKNcC7hkDJsW7e0k6Hw?e=Lrgvdc&amp;amp;action=embedview&amp;amp;wdAr=1.7777777777777777&#34; width=&#34;660px&#34; height=&#34;395px&#34; frameborder=&#34;0&#34;&gt;
+    This is an embedded &lt;a target=&#34;_blank&#34; href=&#34;https://office.com&#34;&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=&#34;_blank&#34; href=&#34;https://office.com/webapps&#34;&gt;Office Online&lt;/a&gt;.
+    &lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>An anatomically accurate circuit for short- and long-term motivational learning in fruit flies</title>
+      <link>https://evgkanias.github.io/talk/an-anatomically-accurate-circuit-for-short-and-long-term-motivational-learning-in-fruit-flies/</link>
+      <pubDate>Sat, 19 Mar 2022 20:30:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/an-anatomically-accurate-circuit-for-short-and-long-term-motivational-learning-in-fruit-flies/</guid>
+      <description>&lt;div align=&#34;center&#34;&gt;
+&lt;iframe src=&#34;https://uoe-my.sharepoint.com/:p:/g/personal/s1514920_ed_ac_uk/ERMt5PfGJbVPn7Kav1_ejOMBJeqVY9wHIjE3wSfjBqC0wA?e=ThMT2Z&amp;amp;action=embedview&amp;amp;wdAr=1.7777777777777777&#34; width=&#34;700px&#34; height=&#34;420px&#34; frameborder=&#34;0&#34;&gt;
+This is an embedded &lt;a target=&#34;_blank&#34; href=&#34;https://office.com&#34;&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=&#34;_blank&#34; href=&#34;https://office.com/webapps&#34;&gt;Office Online&lt;/a&gt;.
+&lt;/iframe&gt;
+&lt;object data=&#34;cosyne2022.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700px&#34; height=&#34;1020px&#34;&gt;
+&lt;embed src=&#34;cosyne2022.pdf&#34;&gt;&lt;/embed&gt;
+&lt;/object&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>An incentive circuit for memory dynamics in the mushroom body of Drosophila melanogaster</title>
       <link>https://evgkanias.github.io/publication/an-incentive-circuit-memory-dynamics-in-the-mushroom-body-of-drosophila-melanogaster/</link>
       <pubDate>Tue, 08 Mar 2022 14:00:00 +0000</pubDate>
       <guid>https://evgkanias.github.io/publication/an-incentive-circuit-memory-dynamics-in-the-mushroom-body-of-drosophila-melanogaster/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>The incentive circuit of the fruit fly brain: a computational perspective</title>
+      <link>https://evgkanias.github.io/talk/the-incentive-circuit-of-the-fruit-fly-brain-a-computational-perspective/</link>
+      <pubDate>Wed, 22 Sep 2021 17:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/the-incentive-circuit-of-the-fruit-fly-brain-a-computational-perspective/</guid>
+      <description>&lt;object data=&#34;the-incentive-circuit-of-the-fruitfly-brain-a-computational-perspective.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700px&#34; height=&#34;1020px&#34;&gt;
+&lt;embed src=&#34;the-incentive-circuit-of-the-fruitfly-brain-a-computational-perspective.pdf&#34;&gt;&lt;/embed&gt;
+&lt;/object&gt;</description>
+    </item>
+    
+    <item>
+      <title>How flies acquire, forget and assimilate memories: a computational perspective</title>
+      <link>https://evgkanias.github.io/talk/how-flies-acquire-forget-and-assimilate-memories-a-computational-perspective/</link>
+      <pubDate>Tue, 01 Jun 2021 15:32:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/how-flies-acquire-forget-and-assimilate-memories-a-computational-perspective/</guid>
+      <description>&lt;iframe src=&#34;https://uoe-my.sharepoint.com/:p:/g/personal/egkanias_ed_ac_uk/EegYTbdFMuJFpLrs1Gm7CfgBgkI3aI1-YRDSGHWI9kgRmg?e=oNcKCT&amp;amp;action=embedview&amp;amp;wdAr=1.7777777777777777&#34; width=&#34;660px&#34; height=&#34;395px&#34; frameborder=&#34;0&#34;&gt;
+This is an embedded &lt;a target=&#34;_blank&#34; href=&#34;https://office.com&#34;&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=&#34;_blank&#34; href=&#34;https://office.com/webapps&#34;&gt;Office Online&lt;/a&gt;.
+&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Imitating the Drosophila Larval Learning Behaviour on a Robot</title>
+      <link>https://evgkanias.github.io/talk/imitating-the-drosophila-larval-learning-behaviour-on-a-robot/</link>
+      <pubDate>Mon, 08 Oct 2018 14:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/imitating-the-drosophila-larval-learning-behaviour-on-a-robot/</guid>
+      <description>&lt;object data=&#34;imitating-the-drosophila-larval-learning-behaviour-on-a-robot.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700px&#34; height=&#34;550px&#34;&gt;
+&lt;embed src=&#34;imitating-the-drosophila-larval-learning-behaviour-on-a-robot.pdf&#34;&gt;&lt;/embed&gt;
+&lt;/object&gt;</description>
     </item>
     
     <item>

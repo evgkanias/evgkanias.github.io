@@ -5,12 +5,63 @@
     <link>https://evgkanias.github.io/tag/insect/</link>
       <atom:link href="https://evgkanias.github.io/tag/insect/index.xml" rel="self" type="application/rss+xml" />
     <description>insect</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2023 Evripidis Gkanias</copyright><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2023 Evripidis Gkanias</copyright><lastBuildDate>Tue, 22 Aug 2023 10:40:00 +0000</lastBuildDate>
     <image>
       <url>https://evgkanias.github.io/media/icon_hu22afa8837ab305f0f3e5e2b9e7b7c4db_6290075_512x512_fill_lanczos_center_3.png</url>
       <title>insect</title>
       <link>https://evgkanias.github.io/tag/insect/</link>
     </image>
+    
+    <item>
+      <title>Multimodal skylight information improves the estimation of the celestial compass: insights from a hardware implementation</title>
+      <link>https://evgkanias.github.io/talk/multimodal-skylight-information-improves-the-estimation-of-the-celestial-compass-insights-from-a-hardware-implementation/</link>
+      <pubDate>Tue, 22 Aug 2023 10:40:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/multimodal-skylight-information-improves-the-estimation-of-the-celestial-compass-insights-from-a-hardware-implementation/</guid>
+      <description>&lt;iframe src=&#34;https://uoe-my.sharepoint.com/:p:/g/personal/egkanias_ed_ac_uk/EWL6VCSDjCRLvssdYn8ClLsB7dz3rjbM3y_Imx3nJv6d4g?e=XK4O4I&amp;amp;action=embedview&amp;amp;wdAr=1.7777777777777777&#34; width=&#34;660px&#34; height=&#34;395px&#34; frameborder=&#34;0&#34;&gt;
+    This is an embedded &lt;a target=&#34;_blank&#34; href=&#34;https://office.com&#34;&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=&#34;_blank&#34; href=&#34;https://office.com/webapps&#34;&gt;Office Online&lt;/a&gt;.
+    &lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Celestial compass design mimics the fan-like polarisation filter array of insect eyes</title>
+      <link>https://evgkanias.github.io/publication/celestial-compass-design-mimics-the-fan-like-polarisation-filter-array-of-insect-eyes/</link>
+      <pubDate>Thu, 29 Jun 2023 14:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/publication/celestial-compass-design-mimics-the-fan-like-polarisation-filter-array-of-insect-eyes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Memory dynamics in Drosophila&#39;s mushroom body: a computational view</title>
+      <link>https://evgkanias.github.io/talk/memory-dynamics-in-drosophilas-mushroom-body-a-computational-view/</link>
+      <pubDate>Sun, 28 May 2023 16:00:00 +0200</pubDate>
+      <guid>https://evgkanias.github.io/talk/memory-dynamics-in-drosophilas-mushroom-body-a-computational-view/</guid>
+      <description>&lt;iframe src=&#34;https://uoe-my.sharepoint.com/:p:/g/personal/egkanias_ed_ac_uk/ERlTkmG7zpFMtJ6kgm_3yqEBwxYPKNcC7hkDJsW7e0k6Hw?e=Lrgvdc&amp;amp;action=embedview&amp;amp;wdAr=1.7777777777777777&#34; width=&#34;660px&#34; height=&#34;395px&#34; frameborder=&#34;0&#34;&gt;
+    This is an embedded &lt;a target=&#34;_blank&#34; href=&#34;https://office.com&#34;&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=&#34;_blank&#34; href=&#34;https://office.com/webapps&#34;&gt;Office Online&lt;/a&gt;.
+    &lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>How the fan-shaped body can integrate differential familiarity for route following in desert ants</title>
+      <link>https://evgkanias.github.io/talk/how-the-fan-shaped-body-can-integrate-differential-familiarity-for-route-following-in-desert-ants/</link>
+      <pubDate>Tue, 11 Oct 2022 17:10:00 -0500</pubDate>
+      <guid>https://evgkanias.github.io/talk/how-the-fan-shaped-body-can-integrate-differential-familiarity-for-route-following-in-desert-ants/</guid>
+      <description>&lt;!--- link to video: https://uoe-my.sharepoint.com/✌️/r/personal/s1514920_ed_ac_uk/Documents/Conferences/2022-cx/cx-route-following-video.mp4?csf=1&amp;web=1&amp;e=Z2b2x6 ---&gt;
+&lt;iframe src=&#34;https://uoe-my.sharepoint.com/personal/egkanias_ed_ac_uk/_layouts/15/embed.aspx?UniqueId=64d991a7-7673-463b-8289-4141716e3dd9&amp;embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&amp;referrer=StreamWebApp&amp;referrerScenario=EmbedDialog.Create&#34;
+width=&#34;700&#34; height=&#34;467&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen title=&#34;cx-route-following-video.mp4&#34;&gt;&lt;/iframe&gt;
+&lt;object data=&#34;cx2022.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700px&#34; height=&#34;1020px&#34;&gt;
+&lt;embed src=&#34;cx2022.pdf&#34;&gt;&lt;/embed&gt;
+&lt;/object&gt;</description>
+    </item>
+    
+    <item>
+      <title>How could the mushroom body and central complex combine for visual homing in insects?</title>
+      <link>https://evgkanias.github.io/talk/how-could-the-mushroom-body-and-central-complex-combine-for-visual-homing-in-insects/</link>
+      <pubDate>Mon, 25 Jul 2022 15:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/how-could-the-mushroom-body-and-central-complex-combine-for-visual-homing-in-insects/</guid>
+      <description>&lt;object data=&#34;icn2022.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700px&#34; height=&#34;1020px&#34;&gt;
+&lt;embed src=&#34;icn2022.pdf&#34;&gt;&lt;/embed&gt;
+&lt;/object&gt;</description>
+    </item>
     
     <item>
       <title>Insect-brain inspired neuromorphic nanophotonics</title>
@@ -32,6 +83,87 @@ This will uniquely combine four lines of research:&lt;/p&gt;
     </item>
     
     <item>
+      <title>An anatomically accurate circuit for short- and long-term motivational learning in fruit flies</title>
+      <link>https://evgkanias.github.io/talk/an-anatomically-accurate-circuit-for-short-and-long-term-motivational-learning-in-fruit-flies/</link>
+      <pubDate>Sat, 19 Mar 2022 20:30:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/an-anatomically-accurate-circuit-for-short-and-long-term-motivational-learning-in-fruit-flies/</guid>
+      <description>&lt;div align=&#34;center&#34;&gt;
+&lt;iframe src=&#34;https://uoe-my.sharepoint.com/:p:/g/personal/s1514920_ed_ac_uk/ERMt5PfGJbVPn7Kav1_ejOMBJeqVY9wHIjE3wSfjBqC0wA?e=ThMT2Z&amp;amp;action=embedview&amp;amp;wdAr=1.7777777777777777&#34; width=&#34;700px&#34; height=&#34;420px&#34; frameborder=&#34;0&#34;&gt;
+This is an embedded &lt;a target=&#34;_blank&#34; href=&#34;https://office.com&#34;&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=&#34;_blank&#34; href=&#34;https://office.com/webapps&#34;&gt;Office Online&lt;/a&gt;.
+&lt;/iframe&gt;
+&lt;object data=&#34;cosyne2022.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700px&#34; height=&#34;1020px&#34;&gt;
+&lt;embed src=&#34;cosyne2022.pdf&#34;&gt;&lt;/embed&gt;
+&lt;/object&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>An incentive circuit for memory dynamics in the mushroom body of Drosophila melanogaster</title>
+      <link>https://evgkanias.github.io/publication/an-incentive-circuit-memory-dynamics-in-the-mushroom-body-of-drosophila-melanogaster/</link>
+      <pubDate>Tue, 08 Mar 2022 14:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/publication/an-incentive-circuit-memory-dynamics-in-the-mushroom-body-of-drosophila-melanogaster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The incentive circuit of the fruit fly brain: a computational perspective</title>
+      <link>https://evgkanias.github.io/talk/the-incentive-circuit-of-the-fruit-fly-brain-a-computational-perspective/</link>
+      <pubDate>Wed, 22 Sep 2021 17:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/the-incentive-circuit-of-the-fruit-fly-brain-a-computational-perspective/</guid>
+      <description>&lt;object data=&#34;the-incentive-circuit-of-the-fruitfly-brain-a-computational-perspective.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700px&#34; height=&#34;1020px&#34;&gt;
+&lt;embed src=&#34;the-incentive-circuit-of-the-fruitfly-brain-a-computational-perspective.pdf&#34;&gt;&lt;/embed&gt;
+&lt;/object&gt;</description>
+    </item>
+    
+    <item>
+      <title>How flies acquire, forget and assimilate memories: a computational perspective</title>
+      <link>https://evgkanias.github.io/talk/how-flies-acquire-forget-and-assimilate-memories-a-computational-perspective/</link>
+      <pubDate>Tue, 01 Jun 2021 15:32:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/how-flies-acquire-forget-and-assimilate-memories-a-computational-perspective/</guid>
+      <description>&lt;iframe src=&#34;https://uoe-my.sharepoint.com/:p:/g/personal/egkanias_ed_ac_uk/EegYTbdFMuJFpLrs1Gm7CfgBgkI3aI1-YRDSGHWI9kgRmg?e=oNcKCT&amp;amp;action=embedview&amp;amp;wdAr=1.7777777777777777&#34; width=&#34;660px&#34; height=&#34;395px&#34; frameborder=&#34;0&#34;&gt;
+This is an embedded &lt;a target=&#34;_blank&#34; href=&#34;https://office.com&#34;&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=&#34;_blank&#34; href=&#34;https://office.com/webapps&#34;&gt;Office Online&lt;/a&gt;.
+&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>From skylight input to behavioural output: a computational model of the insect polarised light compass</title>
+      <link>https://evgkanias.github.io/talk/from-skylight-input-to-behavioural-output-a-computational-model-of-the-insect-polarised-light-compass/</link>
+      <pubDate>Tue, 19 Nov 2019 15:50:25 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/from-skylight-input-to-behavioural-output-a-computational-model-of-the-insect-polarised-light-compass/</guid>
+      <description>&lt;iframe src=&#34;https://uoe-my.sharepoint.com/:p:/g/personal/egkanias_ed_ac_uk/EYJlTlUnpjxIuJDqIVPhregBxy8ukpqqY7Aq_Tk9urPVrQ?e=tpNtgO&amp;amp;action=embedview&amp;amp;wdAr=1.7777777777777777&#34; width=&#34;660px&#34; height=&#34;395px&#34; frameborder=&#34;0&#34;&gt;
+    This is an embedded &lt;a target=&#34;_blank&#34; href=&#34;https://office.com&#34;&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=&#34;_blank&#34; href=&#34;https://office.com/webapps&#34;&gt;Office Online&lt;/a&gt;.
+    &lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Robustness of a model of the insects&#39; celestial compass in realistic conditions</title>
+      <link>https://evgkanias.github.io/talk/robustness-of-a-model-of-the-insects-celestial-compass-in-realistic-conditions/</link>
+      <pubDate>Thu, 08 Aug 2019 16:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/robustness-of-a-model-of-the-insects-celestial-compass-in-realistic-conditions/</guid>
+      <description>&lt;object data=&#34;robustness-of-a-model-of-the-insects-celestial-compass-in-realistic-conditions.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700px&#34; height=&#34;1020px&#34;&gt;
+&lt;embed src=&#34;robustness-of-a-model-of-the-insects-celestial-compass-in-realistic-conditions.pdf&#34;&gt;&lt;/embed&gt;
+&lt;/object&gt;</description>
+    </item>
+    
+    <item>
+      <title>From skylight input to behavioural output: a computational model of the insect polarised light compass</title>
+      <link>https://evgkanias.github.io/publication/from-skylight-input-to-behavioural-output-a-computational-model-of-the-insect-polarised-light-compass/</link>
+      <pubDate>Thu, 18 Jul 2019 13:00:25 +0000</pubDate>
+      <guid>https://evgkanias.github.io/publication/from-skylight-input-to-behavioural-output-a-computational-model-of-the-insect-polarised-light-compass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Imitating the Drosophila Larval Learning Behaviour on a Robot</title>
+      <link>https://evgkanias.github.io/talk/imitating-the-drosophila-larval-learning-behaviour-on-a-robot/</link>
+      <pubDate>Mon, 08 Oct 2018 14:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/imitating-the-drosophila-larval-learning-behaviour-on-a-robot/</guid>
+      <description>&lt;object data=&#34;imitating-the-drosophila-larval-learning-behaviour-on-a-robot.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700px&#34; height=&#34;550px&#34;&gt;
+&lt;embed src=&#34;imitating-the-drosophila-larval-learning-behaviour-on-a-robot.pdf&#34;&gt;&lt;/embed&gt;
+&lt;/object&gt;</description>
+    </item>
+    
+    <item>
       <title>Insect neuroethology of reinforcement learning</title>
       <link>https://evgkanias.github.io/project/phd-thesis/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
@@ -43,6 +175,16 @@ it might take the role of an adaptive critic in the context of reinforcement lea
 This is an embedded &lt;a target=&#34;_blank&#34; href=&#34;https://office.com&#34;&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=&#34;_blank&#34; href=&#34;https://office.com/webapps&#34;&gt;Office Online&lt;/a&gt;.
 &lt;/iframe&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Neural models of ant navigation in a realistic 3D world</title>
+      <link>https://evgkanias.github.io/talk/neural-models-of-ant-navigation-in-a-realistic-3d-world/</link>
+      <pubDate>Sun, 22 Jul 2018 10:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/neural-models-of-ant-navigation-in-a-realistic-3d-world/</guid>
+      <description>&lt;object data=&#34;neural-models-of-ant-navigation-in-a-realistic-3d-world.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700px&#34; height=&#34;1050px&#34;&gt;
+&lt;embed src=&#34;neural-models-of-ant-navigation-in-a-realistic-3d-world.pdf&#34;&gt;&lt;/embed&gt;
+&lt;/object&gt;</description>
     </item>
     
     <item>
