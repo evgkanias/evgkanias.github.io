@@ -5,12 +5,20 @@
     <link>https://evgkanias.github.io/</link>
       <atom:link href="https://evgkanias.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Evripidis Gkanias</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2023 Evripidis Gkanias</copyright><lastBuildDate>Tue, 22 Aug 2023 10:40:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2023 Evripidis Gkanias</copyright><lastBuildDate>Wed, 29 Nov 2023 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://evgkanias.github.io/media/icon_hu22afa8837ab305f0f3e5e2b9e7b7c4db_6290075_512x512_fill_lanczos_center_3.png</url>
       <title>Evripidis Gkanias</title>
       <link>https://evgkanias.github.io/</link>
     </image>
+    
+    <item>
+      <title>Celestial compass sensor mimics the insect eye for navigation under cloudy and occluded skies</title>
+      <link>https://evgkanias.github.io/publication/celestial-compass-design-mimics-the-fan-like-polarisation-filter-array-of-insect-eyes/</link>
+      <pubDate>Wed, 29 Nov 2023 14:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/publication/celestial-compass-design-mimics-the-fan-like-polarisation-filter-array-of-insect-eyes/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Multimodal skylight information improves the estimation of the celestial compass: insights from a hardware implementation</title>
@@ -20,14 +28,6 @@
       <description>&lt;iframe src=&#34;https://uoe-my.sharepoint.com/:p:/g/personal/egkanias_ed_ac_uk/EWL6VCSDjCRLvssdYn8ClLsB7dz3rjbM3y_Imx3nJv6d4g?e=XK4O4I&amp;amp;action=embedview&amp;amp;wdAr=1.7777777777777777&#34; width=&#34;660px&#34; height=&#34;395px&#34; frameborder=&#34;0&#34;&gt;
     This is an embedded &lt;a target=&#34;_blank&#34; href=&#34;https://office.com&#34;&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=&#34;_blank&#34; href=&#34;https://office.com/webapps&#34;&gt;Office Online&lt;/a&gt;.
     &lt;/iframe&gt;</description>
-    </item>
-    
-    <item>
-      <title>Celestial compass design mimics the fan-like polarisation filter array of insect eyes</title>
-      <link>https://evgkanias.github.io/publication/celestial-compass-design-mimics-the-fan-like-polarisation-filter-array-of-insect-eyes/</link>
-      <pubDate>Thu, 29 Jun 2023 14:00:00 +0000</pubDate>
-      <guid>https://evgkanias.github.io/publication/celestial-compass-design-mimics-the-fan-like-polarisation-filter-array-of-insect-eyes/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@
       <link>https://evgkanias.github.io/talk/how-the-fan-shaped-body-can-integrate-differential-familiarity-for-route-following-in-desert-ants/</link>
       <pubDate>Tue, 11 Oct 2022 17:10:00 -0500</pubDate>
       <guid>https://evgkanias.github.io/talk/how-the-fan-shaped-body-can-integrate-differential-familiarity-for-route-following-in-desert-ants/</guid>
-      <description>&lt;!--- link to video: https://uoe-my.sharepoint.com/✌️/r/personal/s1514920_ed_ac_uk/Documents/Conferences/2022-cx/cx-route-following-video.mp4?csf=1&amp;web=1&amp;e=Z2b2x6 ---&gt;
+      <description>&lt;!--- link to video: https://uoe-my.sharepoint.com/:v:/r/personal/s1514920_ed_ac_uk/Documents/Conferences/2022-cx/cx-route-following-video.mp4?csf=1&amp;web=1&amp;e=Z2b2x6 ---&gt;
 &lt;iframe src=&#34;https://uoe-my.sharepoint.com/personal/egkanias_ed_ac_uk/_layouts/15/embed.aspx?UniqueId=64d991a7-7673-463b-8289-4141716e3dd9&amp;embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&amp;referrer=StreamWebApp&amp;referrerScenario=EmbedDialog.Create&#34;
 width=&#34;700&#34; height=&#34;467&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen title=&#34;cx-route-following-video.mp4&#34;&gt;&lt;/iframe&gt;
 &lt;object data=&#34;cx2022.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700px&#34; height=&#34;1020px&#34;&gt;
@@ -446,8 +446,8 @@ Sports and Games (TSG). It will enable multiple modes of training, coaching and
 knowledge sharing that will contribute to the increased participation and preservation
 of traditional sport in the future. This will be achieved by developing a base
 technology and methodologies for the digitisation of the art and forms of play of a
-set of representative sports. In the case of RePlay, this will be field based 
-Gaelic team sports and Basque individual/doubles ball and court sports. 
+set of representative sports. In the case of RePlay, this will be field based
+Gaelic team sports and Basque individual/doubles ball and court sports.
 The fundamental structure of these sports is extensible to a vast majority of traditional
 minority sports and mainstream sports.&lt;/p&gt;
 &lt;p&gt;RePlay will consist of the design and implementation of a platform for the capture, annotation, indexing and provision of 3D sports content. It will include the analysis and specification of methodologies and ideal cost-effective hardware solutions for the extension of the project to other sports. The project will focus on the use of existing and near future 3D motion capture hardware. The project does not include the development of any hardware as an objective, as the market is already addressing this. It shall instead focus on the creation of the knowledge and underlying software tools that will provide a low-cost entry point to other TSG associations.&lt;/p&gt;

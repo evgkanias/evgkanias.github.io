@@ -5,12 +5,20 @@
     <link>https://evgkanias.github.io/tag/bio-inspired-robotics/</link>
       <atom:link href="https://evgkanias.github.io/tag/bio-inspired-robotics/index.xml" rel="self" type="application/rss+xml" />
     <description>bio-inspired robotics</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2023 Evripidis Gkanias</copyright><lastBuildDate>Tue, 22 Aug 2023 10:40:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2023 Evripidis Gkanias</copyright><lastBuildDate>Wed, 29 Nov 2023 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://evgkanias.github.io/media/icon_hu22afa8837ab305f0f3e5e2b9e7b7c4db_6290075_512x512_fill_lanczos_center_3.png</url>
       <title>bio-inspired robotics</title>
       <link>https://evgkanias.github.io/tag/bio-inspired-robotics/</link>
     </image>
+    
+    <item>
+      <title>Celestial compass sensor mimics the insect eye for navigation under cloudy and occluded skies</title>
+      <link>https://evgkanias.github.io/publication/celestial-compass-design-mimics-the-fan-like-polarisation-filter-array-of-insect-eyes/</link>
+      <pubDate>Wed, 29 Nov 2023 14:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/publication/celestial-compass-design-mimics-the-fan-like-polarisation-filter-array-of-insect-eyes/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Multimodal skylight information improves the estimation of the celestial compass: insights from a hardware implementation</title>
@@ -20,14 +28,6 @@
       <description>&lt;iframe src=&#34;https://uoe-my.sharepoint.com/:p:/g/personal/egkanias_ed_ac_uk/EWL6VCSDjCRLvssdYn8ClLsB7dz3rjbM3y_Imx3nJv6d4g?e=XK4O4I&amp;amp;action=embedview&amp;amp;wdAr=1.7777777777777777&#34; width=&#34;660px&#34; height=&#34;395px&#34; frameborder=&#34;0&#34;&gt;
     This is an embedded &lt;a target=&#34;_blank&#34; href=&#34;https://office.com&#34;&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=&#34;_blank&#34; href=&#34;https://office.com/webapps&#34;&gt;Office Online&lt;/a&gt;.
     &lt;/iframe&gt;</description>
-    </item>
-    
-    <item>
-      <title>Celestial compass design mimics the fan-like polarisation filter array of insect eyes</title>
-      <link>https://evgkanias.github.io/publication/celestial-compass-design-mimics-the-fan-like-polarisation-filter-array-of-insect-eyes/</link>
-      <pubDate>Thu, 29 Jun 2023 14:00:00 +0000</pubDate>
-      <guid>https://evgkanias.github.io/publication/celestial-compass-design-mimics-the-fan-like-polarisation-filter-array-of-insect-eyes/</guid>
-      <description></description>
     </item>
     
     <item>
