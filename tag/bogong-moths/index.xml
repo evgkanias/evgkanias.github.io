@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bogong moths | Evripidis Gkanias</title>
+    <link>https://evgkanias.github.io/tag/bogong-moths/</link>
+      <atom:link href="https://evgkanias.github.io/tag/bogong-moths/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bogong moths</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2024 Evripidis Gkanias</copyright><lastBuildDate>Wed, 31 Jul 2024 09:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://evgkanias.github.io/media/icon_hu22afa8837ab305f0f3e5e2b9e7b7c4db_6290075_512x512_fill_lanczos_center_3.png</url>
+      <title>Bogong moths</title>
+      <link>https://evgkanias.github.io/tag/bogong-moths/</link>
+    </image>
+    
+    <item>
+      <title>Time compensation in the celestial compass of insects</title>
+      <link>https://evgkanias.github.io/talk/time-compensation-in-the-celestial-compass-of-insects/</link>
+      <pubDate>Wed, 31 Jul 2024 09:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/talk/time-compensation-in-the-celestial-compass-of-insects/</guid>
+      <description>&lt;object data=&#34;icn2024.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700px&#34; height=&#34;1020px&#34;&gt;
+&lt;embed src=&#34;icn2024.pdf&#34;&gt;&lt;/embed&gt;
+&lt;/object&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
