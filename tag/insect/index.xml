@@ -5,12 +5,32 @@
     <link>https://evgkanias.github.io/tag/insect/</link>
       <atom:link href="https://evgkanias.github.io/tag/insect/index.xml" rel="self" type="application/rss+xml" />
     <description>insect</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2024 Evripidis Gkanias</copyright><lastBuildDate>Wed, 31 Jul 2024 09:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025 Evripidis Gkanias</copyright><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://evgkanias.github.io/media/icon_hu22afa8837ab305f0f3e5e2b9e7b7c4db_6290075_512x512_fill_lanczos_center_3.png</url>
       <title>insect</title>
       <link>https://evgkanias.github.io/tag/insect/</link>
     </image>
+    
+    <item>
+      <title>How noisy information informs accurate responses in natural and artificial systems</title>
+      <link>https://evgkanias.github.io/project/adaptive-compass/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://evgkanias.github.io/project/adaptive-compass/</guid>
+      <description>&lt;h1 id=&#34;problem&#34;&gt;PROBLEM&lt;/h1&gt;
+&lt;p&gt;Animals use the sun, wind, and other directional cues to guide their behaviors. To orient themselves accurately, they must determine the relative reliability of each cue, and precisely determine, for example, where in the sky the sun is located. Many insects, however, are unable to maintain perfect gaze stabilization, i.e., they cannot fixate a stable point on their retinas while moving on the ground. This is because their heads&amp;mdash;and thus their eyes&amp;mdash;will move over large angles of perception as they transverse the world. These perturbations will be even more dramatic when moving over uneven terrain. In theory, this should provide these navigators with highly noisy sensory readings of their directional cues. Still, they navigate with impressive precision. The inability to stabilize the gaze is a problem not only for biological systems&amp;mdash;that seem to have found ways to mitigate its consequences&amp;mdash;but also in the fields of robotics, where agents often need to deal with noisy input and unpredictable postural deviations.&lt;/p&gt;
+&lt;h1 id=&#34;solution&#34;&gt;SOLUTION&lt;/h1&gt;
+&lt;p&gt;To direct the highly precise steering that we still observe in animals, the neural computations that support these behaviors must be highly robust to self-motion and externally induced disturbances to the directional cues. Dung beetles are perfect organisms in which to address the solutions that have evolved to process noisy visual information to inform accurate responses for three reasons:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;They orient in some of the most visually challenging habitats on earth.&lt;/li&gt;
+&lt;li&gt;They exhibit a singular and extremely robust orientation behaviour.&lt;/li&gt;
+&lt;li&gt;A large body and brain size make them ideal for neurophysiological experiments and for carrying miniturized electronic equipment.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;My 25 years of experience with this unique biological system now allows us to apply a unique combination of 3D-positional recordings, behavioral analyses, electrophysiological recordings and computational models of visual input and neural circuitry to reveal the insects’ solutions to mitigate noise. The formulated models will be evaluated on a robotic platform.&lt;/p&gt;
+&lt;h1 id=&#34;project-aim&#34;&gt;PROJECT AIM&lt;/h1&gt;
+&lt;p&gt;The overarching goal of this cross-disciplinary project is to reveal the solutions, honed by millions of years of evolution, that insects employ to compensate for the sensory and computational challenges imposed by navigational perturbations and noisy sensory input. In doing so, I expect to make scientific advances within animal navigation, as well as the fields of sensing, robotics, cognition, perception, and artificial intelligence.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Time compensation in the celestial compass of insects</title>
