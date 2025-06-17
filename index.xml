@@ -5,12 +5,22 @@
     <link>https://evgkanias.github.io/</link>
       <atom:link href="https://evgkanias.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Evripidis Gkanias</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025 Evripidis Gkanias</copyright><lastBuildDate>Fri, 25 Apr 2025 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2025 Evripidis Gkanias</copyright><lastBuildDate>Tue, 17 Jun 2025 17:35:00 -0700</lastBuildDate>
     <image>
       <url>https://evgkanias.github.io/media/icon_hu22afa8837ab305f0f3e5e2b9e7b7c4db_6290075_512x512_fill_lanczos_center_3.png</url>
       <title>Evripidis Gkanias</title>
       <link>https://evgkanias.github.io/</link>
     </image>
+    
+    <item>
+      <title>The time-compensated celestial compass of insects</title>
+      <link>https://evgkanias.github.io/talk/the-time-compensated-celestial-compass-of-insects/</link>
+      <pubDate>Tue, 17 Jun 2025 17:35:00 -0700</pubDate>
+      <guid>https://evgkanias.github.io/talk/the-time-compensated-celestial-compass-of-insects/</guid>
+      <description>&lt;object data=&#34;bisccits2025.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700px&#34; height=&#34;500px&#34;&gt;
+Your web browser doesn&#39;t have a PDF plugin. Instead you can &lt;a href=&#34;bisccits2025.pdf&#34;&gt;click here to download the PDF file.&lt;/a&gt;
+&lt;/object&gt;</description>
+    </item>
     
     <item>
       <title>[keynote] The insects&#39; alternative to GPS</title>
