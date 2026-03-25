@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dung beetle | Evripidis Gkanias</title>
+    <link>https://evgkanias.github.io/tag/dung-beetle/</link>
+      <atom:link href="https://evgkanias.github.io/tag/dung-beetle/index.xml" rel="self" type="application/rss+xml" />
+    <description>dung beetle</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><copyright>© 2026 Evripidis Gkanias</copyright><lastBuildDate>Sun, 26 Jul 2026 12:00:00 +0200</lastBuildDate>
+    <image>
+      <url>https://evgkanias.github.io/media/icon_hu22afa8837ab305f0f3e5e2b9e7b7c4db_6290075_512x512_fill_lanczos_center_3.png</url>
+      <title>dung beetle</title>
+      <link>https://evgkanias.github.io/tag/dung-beetle/</link>
+    </image>
+    
+    <item>
+      <title>Mapping polarised sky views to the behaviour of oriented animals under clouds and trees</title>
+      <link>https://evgkanias.github.io/talk/mapping-polarised-sky-views-to-the-behaviour-of-oriented-animals-under-clouds-and-trees/</link>
+      <pubDate>Sun, 26 Jul 2026 12:00:00 +0200</pubDate>
+      <guid>https://evgkanias.github.io/talk/mapping-polarised-sky-views-to-the-behaviour-of-oriented-animals-under-clouds-and-trees/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
